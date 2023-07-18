@@ -770,6 +770,32 @@ document.addEventListener("DOMContentLoaded", function () {
     generateCategories();
 });
 
+// const menuToggle = document.querySelector(".menu-toggle");
+// const menuModal = document.querySelector(".menu-modal");
+// const closeModal = document.querySelector(".close-modal");
+// const modalBackdrop = document.querySelector(".modal-backdrop");
+
+// menuToggle.addEventListener("click", () => {
+//     menuModal.classList.add("open");
+//     modalBackdrop.style.opacity = "1";
+//     modalBackdrop.style.pointerEvents = "auto";
+//     document.body.style.overflow = "hidden"; // Disable scrolling
+// });
+
+// closeModal.addEventListener("click", () => {
+//     menuModal.classList.remove("open");
+//     modalBackdrop.style.opacity = "0";
+//     modalBackdrop.style.pointerEvents = "none";
+//     document.body.style.overflow = ""; // Enable scrolling
+// });
+
+// modalBackdrop.addEventListener("click", () => {
+//     menuModal.classList.remove("open");
+//     modalBackdrop.style.opacity = "0";
+//     modalBackdrop.style.pointerEvents = "none";
+//     document.body.style.overflow = ""; // Enable scrolling
+// });
+
 const menuToggle = document.querySelector(".menu-toggle");
 const menuModal = document.querySelector(".menu-modal");
 const closeModal = document.querySelector(".close-modal");
@@ -795,3 +821,22 @@ modalBackdrop.addEventListener("click", () => {
     modalBackdrop.style.pointerEvents = "none";
     document.body.style.overflow = ""; // Enable scrolling
 });
+
+// Prevent scrolling when the "menu-modal" is open
+function preventScroll() {
+    if (menuModal.classList.contains("open")) {
+        document.body.style.overflow = "hidden";
+    }
+}
+
+// Re-enable scrolling when the "menu-modal" is closed
+function enableScroll() {
+    if (!menuModal.classList.contains("open")) {
+        document.body.style.overflow = "";
+    }
+}
+
+// Listen for scroll events and call the appropriate functions
+window.addEventListener("scroll", preventScroll);
+menuModal.addEventListener("scroll", preventScroll);
+menuModal.addEventListener("transitionend", enableScroll);

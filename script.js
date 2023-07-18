@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // DATA OBJECTS
 document.addEventListener("DOMContentLoaded", function () {
     const categoriesData = [
+        // Shishas
         {
             name: "Shishas",
             imgSrc: "Images/ShishasThumbnail.png",
@@ -146,6 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Softdrinks
         {
             name: "Softdrinks",
             imgSrc: "Images/SoftdrinksThumbnail.png",
@@ -228,6 +230,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Hotdrinks
         {
             name: "Hotdrinks",
             imgSrc: "Images/HotdrinksThumbnail.png",
@@ -255,6 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Bier
         {
             name: "Bier",
             imgSrc: "Images/BierThumbnail.png",
@@ -324,6 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Cocktails
         {
             name: "Cocktails",
             imgSrc: "Images/CocktailsThumbnail.png",
@@ -421,6 +426,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Chill & Drink
         {
             name: "Chill & Drink",
             imgSrc: "Images/ChilNDrinkThumbnail.png",
@@ -458,6 +464,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Shots
         {
             name: "Shots",
             imgSrc: "Images/ShotsThumbnail.png",
@@ -505,6 +512,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Flaschen
         {
             name: "Flaschen",
             imgSrc: "Images/FlaschenThumbnail.png",
@@ -552,6 +560,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Sweet Shakes
         {
             name: "Sweet Shakes",
             imgSrc: "Images/SweetShakesThumbnail.png",
@@ -570,6 +579,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Snacks/Food
         {
             name: "Snacks/Food",
             imgSrc: "Images/SnacksNFoodThumbnail.png",
@@ -598,6 +608,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+        // Zusatzstoffe
         {
             name: "Zusatzstoffe",
             imgSrc: "Images/ZusatzstoffeThumbnail.png",

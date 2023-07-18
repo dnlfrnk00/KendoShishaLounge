@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Restaurant</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script
+            src="https://kit.fontawesome.com/cb4fcb82c0.js"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="homepage">
+            <header>
+                <div class="img-container">
+                    <a href="index.html">
+                        <img
+                            src="Images/Kendo Lounge Logo.jpg"
+                            alt="Kendo Shisha Lounge Logo"
+                            class="logo"
+                        />
+                    </a>
+                </div>
+                <div class="heading-container">
+                    <h1 class="heading">Kendo Shisha Lounge</h1>
+                    <h3 class="subheading">
+                        Willkommen in der Kendo Shisha Lounge
+                    </h3>
+                </div>
+            </header>
+
+            <a href="menu.html" class="go-to-menu">Unser Menü</a>
+
+            <div class="more-information">
+                <div class="card">
+                    <div class="card-content">
+                        <a
+                            href="https://g.page/r/CRBuUh5qxjjeEAg/review"
+                            class="card-text"
+                        >
+                            <span class="icon">
+                                <i class="fa-regular fa-face-smile"></i>
+                            </span>
+                            Bewerte Uns
+                        </a>
+                        <span class="icon-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-text more-info">
+                            <span class="icon">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+                            Mehr Informationen
+                        </p>
+                        <span class="icon-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <a
+                            href="https://www.instagram.com/kendolounge/"
+                            class="card-text"
+                        >
+                            <span class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                            Instagram
+                        </a>
+                        <span class="icon-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <a
+                            href="https://goo.gl/maps/euN5YTYUv6HjjFXMA"
+                            class="card-text"
+                        >
+                            <span class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            Anfahrt
+                        </a>
+                        <span class="icon-arrow">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 class="modal-heading">Mehr Informationen</h2>
+                <div class="modal-content_container">
+                    <h3 class="modal-subheading">Kendo Shisha Lounge</h3>
+                    <a
+                        href="https://goo.gl/maps/euN5YTYUv6HjjFXMA"
+                        class="modal-adresse"
+                    >
+                        <i class="fa-solid fa-location-dot modal-icon"></i>
+                        Bürgermeister-Wohlfarth-Straße 85c,
+                        <br />
+                        86343 Königsbrunn
+                    </a>
+
+                    <p class="modal-opening_times">
+                        <i class="fa-solid fa-clock modal-icon"></i>
+                        Montag - Sonntag: 18:30 - 01:00 Uhr
+                        <span id="opening-status" class="status"></span>
+                    </p>
+
+                    <a href="tel: 08231 9249059" class="modal-telephone">
+                        <i class="fa-solid fa-phone modal-icon"></i>
+                        08231 9249059
+                    </a>
+                </div>
+
+                <footer class="footer">
+                    <div class="social-media_container">
+                        <a href="#" class="social-media">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-media">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </a>
+                    </div>
+                    <p class="copyright">&copy; Kendo Shisha Lounge</p>
+                </footer>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -796,6 +796,8 @@ document.addEventListener("DOMContentLoaded", function () {
 //     document.body.style.overflow = ""; // Enable scrolling
 // });
 
+// ... Your existing code ...
+
 const menuToggle = document.querySelector(".menu-toggle");
 const menuModal = document.querySelector(".menu-modal");
 const closeModal = document.querySelector(".close-modal");
@@ -805,38 +807,26 @@ menuToggle.addEventListener("click", () => {
     menuModal.classList.add("open");
     modalBackdrop.style.opacity = "1";
     modalBackdrop.style.pointerEvents = "auto";
-    document.body.style.overflow = "hidden"; // Disable scrolling
+    document.body.style.overflow = "hidden"; // Disable scrolling on desktop
+    document.addEventListener("touchmove", preventScroll); // Disable scrolling on mobile
 });
 
 closeModal.addEventListener("click", () => {
     menuModal.classList.remove("open");
     modalBackdrop.style.opacity = "0";
     modalBackdrop.style.pointerEvents = "none";
-    document.body.style.overflow = ""; // Enable scrolling
+    document.body.style.overflow = ""; // Enable scrolling on desktop
+    document.removeEventListener("touchmove", preventScroll); // Enable scrolling on mobile
 });
 
 modalBackdrop.addEventListener("click", () => {
     menuModal.classList.remove("open");
     modalBackdrop.style.opacity = "0";
     modalBackdrop.style.pointerEvents = "none";
-    document.body.style.overflow = ""; // Enable scrolling
+    document.body.style.overflow = ""; // Enable scrolling on desktop
+    document.removeEventListener("touchmove", preventScroll); // Enable scrolling on mobile
 });
 
-// Prevent scrolling when the "menu-modal" is open
-function preventScroll() {
-    if (menuModal.classList.contains("open")) {
-        document.body.style.overflow = "hidden";
-    }
+function preventScroll(event) {
+    event.preventDefault();
 }
-
-// Re-enable scrolling when the "menu-modal" is closed
-function enableScroll() {
-    if (!menuModal.classList.contains("open")) {
-        document.body.style.overflow = "";
-    }
-}
-
-// Listen for scroll events and call the appropriate functions
-window.addEventListener("scroll", preventScroll);
-menuModal.addEventListener("scroll", preventScroll);
-menuModal.addEventListener("transitionend", enableScroll);

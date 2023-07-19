@@ -107,7 +107,6 @@ a {
 
 .category-item {
     padding: 1em;
-
 }
 
 .item-container {
@@ -116,8 +115,10 @@ a {
     padding: 0 0 .35em;
 }
 
-.zusatzstoffe {
+.zusatzstoffe,
+.inhalt {
     font-size: .65em;
+    padding-block-end: .35em;
 }
 
 .menu-modal {

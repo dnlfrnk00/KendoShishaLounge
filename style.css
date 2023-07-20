@@ -274,6 +274,7 @@
 
   .category-items-subheading {
     font-size: .8em;
+    padding-block-start: .5em;
     margin-block-end: 2.5em;
 }
 
@@ -292,6 +293,9 @@
   }
   .category-items-heading {
     font-size: .9em;
+  }
+  .category-items-heading.larger-heading {
+    font-size: 1.5em;
   }
 
   .item-container {

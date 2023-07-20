@@ -171,13 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {
                     name: "Wasser",
                     price: "€3.90",
-                    zusatzstoffe: "Still",
-                    inhalt: "Inhalt: 0,33L",
-                },
-                {
-                    name: "Wasser",
-                    price: "€3.90",
-                    zusatzstoffe: "Medium",
+                    zusatzstoffe: "Still, Medium",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {

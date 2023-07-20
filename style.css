@@ -157,12 +157,12 @@
   .modal-heading {
     text-align: center;
     margin-block-end: 1em;
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
   
   .modal-subheading {
-    margin-block-end: 0.75em;
-    font-size: 1.25em;
+    margin-block-end: 0.5em;
+    font-size: 1.5em;
   }
   
   .modal-adresse {
@@ -222,3 +222,139 @@
     color: #F4F4F4;
   }
   
+
+  /* Menu */
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1.5em;
+  }
+
+  .nav-icon {
+    color: #F4F4F4;
+    font-size: 1.5em;
+
+    cursor: pointer;
+  }
+
+  .nav-logo {
+    aspect-ratio: 16/9;
+  }
+
+.menu-heading {
+    text-align: center;
+    color: #C63303;
+    margin-block-end: 1.25em;
+}
+
+.categories {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    /* padding: 0 1rem; */
+    margin-bottom: 1rem;
+
+    color: #F4F4F4;
+
+}
+.categories-container {
+    overflow-x: auto;
+    margin: 2em .5rem;
+  }
+
+  .category-items-heading,
+  .category-items-subheading {
+    text-align: center;
+  }
+
+  .category-items-subheading {
+    font-size: .8em;
+    margin-block-end: 2.5em;
+}
+
+.category {
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    flex: 0 0 calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    scroll-snap-align: start;
+  }
+
+  .category-items {
+    color: #F4F4F4;
+    margin-inline: 1em;
+  }
+
+  .item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.category-item {
+    padding: 1em .5em;
+}
+
+.zusatzstoffe,
+.inhalt {
+    margin-block-start: .5em;
+    font-size: .65em;
+}
+
+  .menu-modal {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    background-color: #231F1E;
+    z-index: 10;
+    transition: right 0.3s ease-in-out;
+    overflow: auto;
+
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.menu-modal.open {
+    right: 0;
+}
+
+.close-modal {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    cursor: pointer;
+    font-size: 2em;
+    color: #F4F4F4;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-modal.open {
+    right: 0;
+}
+
+.menu-modal-content {
+    height: 100%; /* Puts footer at the bottom of Menu Modal */
+}
+
+.card-content.menu-card {
+    font-size: .8em;
+  }

@@ -261,6 +261,7 @@
     color: #F4F4F4;
 
 }
+
 .categories-container {
     overflow-x: auto;
     margin: 2em .5rem;
@@ -288,6 +289,9 @@
   .category-items {
     color: #F4F4F4;
     margin-inline: 1em;
+  }
+  .category-items-heading {
+    font-size: .9em;
   }
 
   .item-container {

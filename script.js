@@ -232,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Eistee",
                     price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 2, 7",
-                    inhalt: "Inhalt: 0,5L",
+                    inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Säfte",

@@ -150,13 +150,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Haus Mix",
-                    price: "€15.00",
+                    price: "€16.00",
                     zusatzstoffe: "",
                     inhalt: "",
                 },
                 {
                     name: "Mocca Pistazie Vanille",
-                    price: "€15.00",
+                    price: "€16.00",
                     zusatzstoffe: "Mit Milch und Kaffeebohnen",
                     inhalt: "",
                 },
@@ -170,37 +170,37 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Wasser",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Still, Medium",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Coca Cola",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 14",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Coca Cola Zero",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 15",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Fanta",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 16",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Sprite",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 17",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Spezi Energy",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 18",
                     inhalt: "Inhalt: 0,33L",
                 },
@@ -212,31 +212,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Red Bull Classic",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "Inhalt: 0,25L",
                 },
                 {
                     name: "Red Bull Zero",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "Inhalt: 0,25L",
                 },
                 {
                     name: "Red Bull White Cocos",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "Inhalt: 0,25L",
                 },
                 {
                     name: "Eistee",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 2, 7",
                     inhalt: "Inhalt: 0,5L",
                 },
                 {
                     name: "Säfte",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "",
                     inhalt: "Inhalt: 0,33L",
                 },
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Powerade Blue",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "",
                     inhalt: "Inhalt: 0,5L",
                 },
@@ -296,35 +296,35 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Bier",
             imgSrc: "Images/BierThumbnail.png",
-            subheading: "Bier",
+            subheading: "",
             items: [
                 {
                     name: "Augustiner Helles",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "",
                     inhalt: "Inhalt: 0,5L",
                 },
                 {
                     name: "Desperados",
-                    price: "€4.20",
+                    price: "€4.50",
                     zusatzstoffe: "Zusatzstoffe: 8",
                     inhalt: "Inhalt: 0,33L",
                 },
                 {
                     name: "Franziskaner Weizen",
-                    price: "€3.90",
+                    price: "€4.20",
                     zusatzstoffe: "",
                     inhalt: "Inhalt: 0,5L",
                 },
                 {
                     name: "Cola Weizen",
-                    price: "€4.20",
+                    price: "€4.50",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 7, 9, 10, 14",
                     inhalt: "Inhalt: 0,5L",
                 },
                 {
                     name: "Radler",
-                    price: "€4.20",
+                    price: "€4.50",
                     zusatzstoffe: "Zusatzstoffe: 7",
                     inhalt: "Inhalt: 0,5L",
                 },
@@ -493,7 +493,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Chill & Drink",
             imgSrc: "Images/ChilNDrinkThumbnail.png",
-            subheading: "Cocktails mit und ohne Alkohol",
+            subheading: "Drinks für einen entspannten Abend",
             items: [
                 {
                     name: "Hugo",
@@ -537,7 +537,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Shots",
             imgSrc: "Images/ShotsThumbnail.png",
-            subheading: "Shots",
+            subheading: "",
             items: [
                 {
                     name: "Vodka",
@@ -593,8 +593,14 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Flaschen",
             imgSrc: "Images/FlaschenThumbnail.png",
-            subheading: "Flaschen",
+            subheading: "",
             items: [
+                {
+                    name: "Unser Flaschenpaket",
+                    price: "€100.00",
+                    zusatzstoffe: "1 Belvedere, 1 Shisha und 1 Nachos",
+                    inhalt: "",
+                },
                 {
                     name: "Smirnoff",
                     price: "€39.00",
@@ -649,7 +655,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Sweet Shakes",
             imgSrc: "Images/SweetShakesThumbnail.png",
-            subheading: "Shots",
+            subheading: "Süße Milkshakes",
             items: [
                 {
                     name: "Snickers",
@@ -670,7 +676,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Snacks/Food",
             imgSrc: "Images/SnacksNFoodThumbnail.png",
-            subheading: "Essen",
+            subheading: "",
             items: [
                 {
                     name: "Toast (Sucuk/Käse)",

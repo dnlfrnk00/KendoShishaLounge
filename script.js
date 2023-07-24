@@ -399,7 +399,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Cuba Libre",
-                    price: "€7.90",
+                    price: "€8.50",
                     zusatzstoffe: "Alkoholisch",
                     inhalt: "Inhalt: 0,4L",
                 },

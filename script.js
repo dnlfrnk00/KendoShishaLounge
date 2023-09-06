@@ -703,6 +703,24 @@ document.addEventListener("DOMContentLoaded", function () {
                     zusatzstoffe: "",
                     inhalt: "",
                 },
+                {
+                    name: "Pizza Margherita",
+                    price: "€7.50",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
+                    name: "Pizza Funghi",
+                    price: "€8.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
+                    name: "Pizza Funghi/Sucuk",
+                    price: "€8.50",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
             ],
         },
         // Zusatzstoffe

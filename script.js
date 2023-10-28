@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Shishas",
             imgSrc: "Images/ShishasThumbnail.png",
             subheading: "Eisschlauch gibt's für nur 2.00€ extra",
+            lowerSubheading: "Topfwechsel nur 7.50€",
             items: [
                 {
                     name: "Doppel Apfel",
@@ -710,13 +711,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Pizza Funghi",
-                    price: "€8.00",
-                    zusatzstoffe: "",
-                    inhalt: "",
-                },
-                {
-                    name: "Pizza Funghi/Sucuk",
+                    name: "Pizza Sucuk",
                     price: "€8.50",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -892,6 +887,14 @@ document.addEventListener("DOMContentLoaded", function () {
             subheadingElement.textContent = category.subheading;
             categoryItemsContainer.appendChild(subheadingElement);
 
+            const lowerSubheadingElement = document.createElement("p");
+            lowerSubheadingElement.classList.add(
+                "category-items-subheading",
+                "lowerSubheadingElement"
+            );
+            lowerSubheadingElement.textContent = category.lowerSubheading;
+            categoryItemsContainer.appendChild(lowerSubheadingElement);
+
             // Generate item elements
             category.items.forEach((item) => {
                 const itemElement = document.createElement("div");
@@ -913,34 +916,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     generateCategories();
 });
-
-// const menuToggle = document.querySelector(".menu-toggle");
-// const menuModal = document.querySelector(".menu-modal");
-// const closeModal = document.querySelector(".close-modal");
-// const modalBackdrop = document.querySelector(".modal-backdrop");
-
-// menuToggle.addEventListener("click", () => {
-//     menuModal.classList.add("open");
-//     modalBackdrop.style.opacity = "1";
-//     modalBackdrop.style.pointerEvents = "auto";
-//     document.body.style.overflow = "hidden"; // Disable scrolling
-// });
-
-// closeModal.addEventListener("click", () => {
-//     menuModal.classList.remove("open");
-//     modalBackdrop.style.opacity = "0";
-//     modalBackdrop.style.pointerEvents = "none";
-//     document.body.style.overflow = ""; // Enable scrolling
-// });
-
-// modalBackdrop.addEventListener("click", () => {
-//     menuModal.classList.remove("open");
-//     modalBackdrop.style.opacity = "0";
-//     modalBackdrop.style.pointerEvents = "none";
-//     document.body.style.overflow = ""; // Enable scrolling
-// });
-
-// ... Your existing code ...
 
 const menuToggle = document.querySelector(".menu-toggle");
 const menuModal = document.querySelector(".menu-modal");

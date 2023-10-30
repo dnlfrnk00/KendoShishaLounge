@@ -610,7 +610,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Absolut Vodka",
-                    price: "49.00",
+                    price: "€49.00",
                     zusatzstoffe: "",
                     inhalt: "Inhalt: 0,75L",
                 },
@@ -890,7 +890,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const lowerSubheadingElement = document.createElement("p");
             lowerSubheadingElement.classList.add(
                 "category-items-subheading",
-                "lowerSubheadingElement"
+                "lower-subheading"
             );
             lowerSubheadingElement.textContent = category.lowerSubheading;
             categoryItemsContainer.appendChild(lowerSubheadingElement);

@@ -51,10 +51,18 @@
   .heading {
     color: #C63303;
     font-size: 1.75em;
-    margin: 0.25em 0;
+    /* margin: 0.25em 0; */
+    margin-top: 0.25em;
   }
   
   .subheading {
+    font-size: .85em;
+    font-weight: 400;
+    color: #F4F4F4;
+    margin-top: 1.25em;
+  }
+
+  .inhaber {
     font-size: .85em;
     font-weight: 400;
     color: #F4F4F4;

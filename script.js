@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Ananas Grapefruit",
+                    name: "Kiwi",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",

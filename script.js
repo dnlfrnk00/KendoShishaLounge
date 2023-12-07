@@ -125,6 +125,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
+                    name: "Kiwi",
+                    price: "€15.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
+                    name: "Himbeere",
+                    price: "€15.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
                     name: "Ice Kaktus",
                     price: "€15.00",
                     zusatzstoffe: "",
@@ -132,12 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Ice Bonbon",
-                    price: "€15.00",
-                    zusatzstoffe: "",
-                    inhalt: "",
-                },
-                {
-                    name: "Kiwi",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",

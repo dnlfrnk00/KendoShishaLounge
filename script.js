@@ -95,6 +95,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
+                    name: "Kaugummi Zimt",
+                    price: "€15.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
                     name: "Falim",
                     price: "€15.00",
                     zusatzstoffe: "",
@@ -252,12 +258,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     price: "€4.20",
                     zusatzstoffe: "",
                     inhalt: "Inhalt: 0,33L",
-                },
-                {
-                    name: "Aloe Vera Drink",
-                    price: "€4.20",
-                    zusatzstoffe: "",
-                    inhalt: "Inhalt: 0,5L",
                 },
                 {
                     name: "Powerade Blue",

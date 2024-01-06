@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "Inhalt: 0,25L",
                 },
                 {
-                    name: "Eistee",
+                    name: "Elephant Bay ICE Tea verschiedene Sorten",
                     price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 2, 7",
                     inhalt: "Inhalt: 0,33L",

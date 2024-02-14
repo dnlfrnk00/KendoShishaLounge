@@ -125,6 +125,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
+                    name: "Erdbeere",
+                    price: "€15.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
+                    name: "Banane",
+                    price: "€15.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
                     name: "Zitrone",
                     price: "€15.00",
                     zusatzstoffe: "",

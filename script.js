@@ -101,12 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Falim",
-                    price: "€15.00",
-                    zusatzstoffe: "",
-                    inhalt: "",
-                },
-                {
                     name: "Love 66",
                     price: "€15.00",
                     zusatzstoffe: "",

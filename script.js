@@ -69,15 +69,17 @@ document.addEventListener("DOMContentLoaded", function () {
             imgSrc: "Images/ShishasThumbnail.png",
             subheading: "Eisschlauch gibt's für nur 2.00€ extra",
             lowerSubheading: "Topfwechsel nur 7.50€",
+            exceptSubheading:
+                "* eingerauchte Shishas ½ Preis - Aromawechsel zum ganzen Preis",
             items: [
                 {
-                    name: "Doppel Apfel",
+                    name: "Doppel Apfel *",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
                 },
                 {
-                    name: "Traube Minze",
+                    name: "Traube Minze *",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -95,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Kaugummi Zimt",
+                    name: "Kaugummi Zimt *",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -114,6 +116,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Wassermelone",
+                    price: "€15.00",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                },
+                {
+                    name: "Orange *",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -174,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Mocca Pistazie Vanille",
+                    name: "Mocca Pistazie Vanille *",
                     price: "€16.00",
                     zusatzstoffe: "Mit Milch und Kaffeebohnen",
                     inhalt: "",
@@ -280,19 +288,19 @@ document.addEventListener("DOMContentLoaded", function () {
             subheading: "Frischgemachte Heißgetränke",
             items: [
                 {
-                    name: "Kaffee",
+                    name: "Mocca (einfach)",
                     price: "€3.50",
                     zusatzstoffe: "Zusatzstoffe: 1",
                     inhalt: "",
                 },
                 {
-                    name: "Cappuccino",
+                    name: "Mocca (doppelt)",
                     price: "€3.90",
-                    zusatzstoffe: "Zusatzstoffe: 1, 12",
+                    zusatzstoffe: "Zusatzstoffe: 1",
                     inhalt: "",
                 },
                 {
-                    name: "Latte Macchiato",
+                    name: "Mocca mit Milchschaum",
                     price: "€4.20",
                     zusatzstoffe: "Zusatzstoffe: 1, 12",
                     inhalt: "",
@@ -900,12 +908,17 @@ document.addEventListener("DOMContentLoaded", function () {
             categoryItemsContainer.appendChild(subheadingElement);
 
             const lowerSubheadingElement = document.createElement("p");
-            lowerSubheadingElement.classList.add(
+            lowerSubheadingElement.classList.add("category-items-subheading");
+            lowerSubheadingElement.textContent = category.lowerSubheading;
+            categoryItemsContainer.appendChild(lowerSubheadingElement);
+
+            const exceptSubheadingElement = document.createElement("p");
+            exceptSubheadingElement.classList.add(
                 "category-items-subheading",
                 "lower-subheading"
             );
-            lowerSubheadingElement.textContent = category.lowerSubheading;
-            categoryItemsContainer.appendChild(lowerSubheadingElement);
+            exceptSubheadingElement.textContent = category.exceptSubheading;
+            categoryItemsContainer.appendChild(exceptSubheadingElement);
 
             // Generate item elements
             category.items.forEach((item) => {

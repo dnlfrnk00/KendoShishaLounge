@@ -1,3 +1,12 @@
+# Ignore the CNAME file (if it's generated or specific to your deployment)
+CNAME
+
+# Ignore the publickey file (assuming it's sensitive or specific to your local environment)
 publickey
-publickey.publickey
+
+# Ignore the publickey.pub file (assuming it's sensitive or specific to your local environment)
+publickey.pub
+
+# Ignore the README.md file (if it's specific to your local environment)
 README.md
+

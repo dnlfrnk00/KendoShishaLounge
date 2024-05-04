@@ -912,13 +912,13 @@ document.addEventListener("DOMContentLoaded", function () {
             lowerSubheadingElement.textContent = category.lowerSubheading;
             categoryItemsContainer.appendChild(lowerSubheadingElement);
 
-            const exceptSubheadingElement = document.createElement("p");
-            exceptSubheadingElement.classList.add(
-                "category-items-subheading",
-                "lower-subheading"
-            );
-            exceptSubheadingElement.textContent = category.exceptSubheading;
-            categoryItemsContainer.appendChild(exceptSubheadingElement);
+            // const exceptSubheadingElement = document.createElement("p");
+            // exceptSubheadingElement.classList.add(
+            //     "category-items-subheading",
+            //     "lower-subheading"
+            // );
+            // exceptSubheadingElement.textContent = category.exceptSubheading;
+            // categoryItemsContainer.appendChild(exceptSubheadingElement);
 
             // Generate item elements
             category.items.forEach((item) => {

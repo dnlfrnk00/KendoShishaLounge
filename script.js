@@ -73,13 +73,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 "* eingerauchte Shishas ½ Preis - Aromawechsel zum ganzen Preis",
             items: [
                 {
-                    name: "Doppel Apfel *",
+                    name: "Doppel Apfel",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
                 },
                 {
-                    name: "Traube Minze *",
+                    name: "Traube Minze",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Kaugummi Zimt *",
+                    name: "Kaugummi Zimt",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Orange *",
+                    name: "Orange",
                     price: "€15.00",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                 },
                 {
-                    name: "Mocca Pistazie Vanille *",
+                    name: "Mocca Pistazie Vanille",
                     price: "€16.00",
                     zusatzstoffe: "Mit Milch und Kaffeebohnen",
                     inhalt: "",

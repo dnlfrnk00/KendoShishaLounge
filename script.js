@@ -597,12 +597,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "Inhalt: 2cl",
                 },
                 {
-                    name: "Cachaca",
-                    price: "€3.00",
-                    zusatzstoffe: "",
-                    inhalt: "Inhalt: 2cl",
-                },
-                {
                     name: "Süßer Hausmix",
                     price: "€3.00",
                     zusatzstoffe: "Melonen Brandy, Vodka",

@@ -529,12 +529,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "Inhalt: 0,25L",
                 },
                 {
-                    name: "Rotwein",
-                    price: "€4.50",
-                    zusatzstoffe: "Zusatzstoffe: 2, 14, 18",
-                    inhalt: "Inhalt: 0,25L",
-                },
-                {
                     name: "Weißwein",
                     price: "€4.50",
                     zusatzstoffe: "Zusatzstoffe: 2, 14, 18",

@@ -275,6 +275,10 @@
     margin: 2em .5rem;
   }
 
+  .category-items-heading-container {
+    margin-bottom: 2rem;
+  }
+
   .category-items-heading,
   .category-items-subheading {
     text-align: center;

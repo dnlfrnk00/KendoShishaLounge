@@ -326,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Säfte",
                     price: "€4.20",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "0,33L",
                     alk: "",
                 },
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Saftschorle",
                     price: "€4.20",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "0,33L",
                     alk: "",
                 },
@@ -342,7 +342,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Powerade Blue",
                     price: "€4.20",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 7, 10, 14, 15",
                     inhalt: "0,5L",
                     alk: "",
                 },
@@ -446,7 +446,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Vodka Bull",
                     price: "€7.00",
                     zutaten: "",
-                    zusatzstoffe: "1, 4, 10",
+                    zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
                     alk: "Alkoholisch",
                 },
@@ -454,7 +454,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Vodka Saft",
                     price: "€7.00",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "4cl",
                     alk: "Alkoholisch",
                 },
@@ -462,7 +462,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Jack Cola",
                     price: "€7.00",
                     zutaten: "",
-                    zusatzstoffe: "1, 2, 9, 14",
+                    zusatzstoffe: "Zusatzstoffe: 1, 2, 9, 14",
                     inhalt: "4cl",
                     alk: "Alkoholisch",
                 },
@@ -470,15 +470,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Jäger Bull",
                     price: "€7.00",
                     zutaten: "",
-                    zusatzstoffe: "1, 4, 10",
+                    zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
+                    alk: "Alkoholisch",
+                },
+                {
+                    name: "Cuba Libre",
+                    price: "€8.50",
+                    zutaten: "Rum | Cola",
+                    zusatzstoffe: "Zusatzstoffe: 1, 2, 9, 14",
+                    inhalt: "0,4L",
                     alk: "Alkoholisch",
                 },
                 {
                     name: "Gin Tonic",
                     price: "€7.00",
                     zutaten: "",
-                    zusatzstoffe: "1, 4, 10",
+                    zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
                     alk: "Alkoholisch",
                 },
@@ -520,14 +528,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Mojito",
                     price: "€8.50",
                     zutaten: "Rum | Rohrzucker | Soda | Minze | Limette",
-                    zusatzstoffe: "",
-                    inhalt: "0,4L",
-                    alk: "Alkoholisch",
-                },
-                {
-                    name: "Cuba Libre",
-                    price: "€8.50",
-                    zutaten: "Rum | Cola",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
                     alk: "Alkoholisch",
@@ -615,18 +615,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     alk: "Alkoholfrei",
                 },
                 {
-                    name: "Holunder Twist Virgin",
-                    price: "€7.90",
-                    zutaten:
-                        "Blue Curacao | Mangosirup | Zitronensaft | Limettensaft | Ananassaft | Maracujanektar",
-                    zusatzstoffe: "",
-                    inhalt: "0,4L",
-                    alk: "Alkoholfrei",
-                },
-                {
                     name: "Erdbeer Tropic",
                     price: "€7.90",
-                    zutaten: "Erdbeersirup | Orangensaft | Ananassaft",
+                    zutaten:
+                        "Erdbeersirup | Erdbeersaft | Orangensaft | Ananassaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
                     alk: "Alkoholfrei",
@@ -876,7 +868,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Toast (Sucuk/Käse)",
                     price: "€5.50",
                     zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 12",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
                     alk: "",
                 },
@@ -885,7 +877,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Nachos",
                     price: "€4.50",
                     zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 12",
+                    zusatzstoffe: "Zusatzstoffe: 2, 12",
                     inhalt: "",
                     alk: "",
                 },
@@ -901,7 +893,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Popcorn",
                     price: "€4.00",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 7, 11, 15",
                     inhalt: "",
                     alk: "",
                 },
@@ -909,7 +901,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Pizza Margherita",
                     price: "€7.50",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
                     alk: "",
                 },
@@ -917,7 +909,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     name: "Pizza Sucuk",
                     price: "€8.50",
                     zutaten: "",
-                    zusatzstoffe: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
                     alk: "",
                 },
@@ -1108,6 +1100,12 @@ document.addEventListener("DOMContentLoaded", function () {
             // Clear previous items
             categoryItemsContainer.innerHTML = "";
 
+            const categoryHeadingContainer = document.createElement("div");
+            categoryHeadingContainer.classList.add(
+                "category-items-heading-container"
+            );
+            categoryItemsContainer.appendChild(categoryHeadingContainer);
+
             // Generate category heading
             const categoryHeadingElement = document.createElement("h2");
             categoryHeadingElement.classList.add(
@@ -1115,18 +1113,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 "larger-heading"
             );
             categoryHeadingElement.textContent = category.name;
-            categoryItemsContainer.appendChild(categoryHeadingElement);
+            categoryHeadingContainer.appendChild(categoryHeadingElement);
 
             // Generate category subheading
             const subheadingElement = document.createElement("p");
             subheadingElement.classList.add("category-items-subheading");
             subheadingElement.textContent = category.subheading;
-            categoryItemsContainer.appendChild(subheadingElement);
+            categoryHeadingContainer.appendChild(subheadingElement);
 
             const lowerSubheadingElement = document.createElement("p");
             lowerSubheadingElement.classList.add("category-items-subheading");
             lowerSubheadingElement.textContent = category.lowerSubheading;
-            categoryItemsContainer.appendChild(lowerSubheadingElement);
+            categoryHeadingContainer.appendChild(lowerSubheadingElement);
 
             // const exceptSubheadingElement = document.createElement("p");
             // exceptSubheadingElement.classList.add(

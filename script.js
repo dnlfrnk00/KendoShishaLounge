@@ -218,14 +218,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                     alk: "",
                 },
-                {
-                    name: "Mocca Pistazie Vanille",
-                    price: "€16.00",
-                    zutaten: "",
-                    zusatzstoffe: "Mit Milch und Kaffeebohnen",
-                    inhalt: "",
-                    alk: "",
-                },
             ],
         },
         // Softdrinks
@@ -444,7 +436,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Vodka Bull",
-                    price: "€7.00",
+                    price: "€9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
@@ -452,7 +444,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Vodka Saft",
-                    price: "€7.00",
+                    price: "€9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "4cl",
@@ -460,7 +452,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Jack Cola",
-                    price: "€7.00",
+                    price: "€9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 9, 14",
                     inhalt: "4cl",
@@ -468,7 +460,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Jäger Bull",
-                    price: "€7.00",
+                    price: "€9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
@@ -484,7 +476,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Gin Tonic",
-                    price: "€7.00",
+                    price: "€9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
@@ -492,7 +484,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Raki",
-                    price: "€7.00",
+                    price: "€9.90",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "4cl",
@@ -508,7 +500,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Touchdown",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten:
                         "Apricot Brandy | Vodka | Maracujasaft | Grenadine",
                     zusatzstoffe: "",
@@ -517,7 +509,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sex on the Beach",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten:
                         "Vodka | Ananassaft | Orangensaft | Grenadine | Apricot Brandy |",
                     zusatzstoffe: "",
@@ -526,7 +518,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Mojito",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Rum | Rohrzucker | Soda | Minze | Limette",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -534,7 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Pina Colada",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Rum | Kokoslikör | Ananassaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -542,7 +534,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Long Island Ice Tea",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Vodka | Tequila | Rum | Gin | Ice Tea Pfirsich",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -550,7 +542,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Long Island Red Bull",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Vodka | Tequila | Rum | Gin | Red Bull",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -558,7 +550,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Long Island Cola",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Vodka | Tequila | Rum | Gin | Coca Cola",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -566,7 +558,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Swimming Pool",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Vodka | Kokossirup | Blue Curacao | Ananassaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -574,7 +566,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sweet Bitch",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Tequila | Orangensaft | Grenadine",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -582,7 +574,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Caipirinha",
-                    price: "€8.50",
+                    price: "€9.20",
                     zutaten: "Cachaca | Limette | Rohrzucker",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -590,7 +582,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Coconut Kiss",
-                    price: "€7.90",
+                    price: "€8.50",
                     zutaten:
                         "Kokossirup | Ananassaft | Orangensaft | Kirschsaft",
                     zusatzstoffe: "",
@@ -599,7 +591,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Kiba",
-                    price: "€7.90",
+                    price: "€8.50",
                     zutaten: "Kirschsaft | Bananensaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -607,7 +599,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Summer",
-                    price: "€7.90",
+                    price: "€8.50",
                     zutaten:
                         "Bitter Lemon | Maracujasaft | Kirschsaft | Ananassaft",
                     zusatzstoffe: "",
@@ -616,7 +608,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Erdbeer Tropic",
-                    price: "€7.90",
+                    price: "€8.50",
                     zutaten:
                         "Erdbeersirup | Erdbeersaft | Orangensaft | Ananassaft",
                     zusatzstoffe: "",
@@ -625,7 +617,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Virgin Mojito",
-                    price: "€7.90",
+                    price: "€8.50",
                     zutaten: "Limettensaft | Rohrzucker | Ginger Ale",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -633,7 +625,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Red Fly Orange",
-                    price: "€7.90",
+                    price: "€8.50",
                     zutaten: "Orangensaft | Grenadine | Red Bull",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -865,6 +857,40 @@ document.addEventListener("DOMContentLoaded", function () {
             subheading: "",
             items: [
                 {
+                    name: "Pizza Sucuk",
+                    price: "€8.90",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Pizza Margherita",
+                    price: "€8.00",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+
+                {
+                    name: "Döner Kebab Flammkuchen",
+                    price: "€7.50",
+                    zutaten:
+                        "Flammkuchen Creme, Weißkäse, Peperoni, Hähnchen Döner Kebeb",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Sucuk Baguette",
+                    price: "€6.50",
+                    zutaten: "Sucuk, Gouda, Spezial Sauce",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
                     name: "Toast (Sucuk/Käse)",
                     price: "€5.50",
                     zutaten: "",
@@ -886,30 +912,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     price: "€4.00",
                     zutaten: "",
                     zusatzstoffe: "",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Popcorn",
-                    price: "€4.00",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 7, 11, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Pizza Margherita",
-                    price: "€7.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Pizza Sucuk",
-                    price: "€8.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
                     alk: "",
                 },
@@ -964,6 +966,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {
                     name: "6",
                     price: "",
+                    zutaten: "",
                     zusatzstoffe: "Mit Phosphat",
                     inhalt: "",
                     alk: "",

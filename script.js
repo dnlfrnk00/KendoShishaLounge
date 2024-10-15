@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Haus Mix",
-                    price: "€16.00",
+                    price: "€15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -324,7 +324,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Saftschorle",
-                    price: "€4.20",
+                    price: "€4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "0,33L",

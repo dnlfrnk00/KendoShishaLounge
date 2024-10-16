@@ -432,7 +432,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Longdrinks",
             imgSrc: "Images/LongdrinksThumbnail.png",
-            subheading: "Hausgemixte Longdrinks",
+            subheading: "Hausgemixte Longdrinks, 475ml",
             items: [
                 {
                     name: "Vodka Bull",

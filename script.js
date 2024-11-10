@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // DATA OBJECTS
+// WERDEN IN GENAU DIESER REIHENFOLGE AUF DER WEBSITE DISPLAYED
 document.addEventListener("DOMContentLoaded", function () {
     const categoriesData = [
         // Shishas
@@ -213,6 +214,73 @@ document.addEventListener("DOMContentLoaded", function () {
                 {
                     name: "Haus Mix",
                     price: "€15.00",
+                    zutaten: "",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                    alk: "",
+                },
+            ],
+        },
+        // Snacks/Food
+        {
+            name: "Snacks/Food",
+            imgSrc: "Images/SnacksNFoodThumbnail.png",
+            subheading: "",
+            items: [
+                {
+                    name: "Pizza Sucuk",
+                    price: "€8.90",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Pizza Margherita",
+                    price: "€8.00",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+
+                {
+                    name: "Döner Kebab Flammkuchen",
+                    price: "€7.50",
+                    zutaten:
+                        "Flammkuchen Creme, Weißkäse, Peperoni, Hähnchen Döner Kebeb",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Sucuk Baguette",
+                    price: "€6.90",
+                    zutaten: "Sucuk, Gouda, Spezial Sauce",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Toast (Sucuk/Käse)",
+                    price: "€5.50",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
+
+                {
+                    name: "Nachos",
+                    price: "€4.50",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 12",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Nussmix",
+                    price: "€4.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -846,73 +914,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 12",
                     inhalt: "0,25L",
-                    alk: "",
-                },
-            ],
-        },
-        // Snacks/Food
-        {
-            name: "Snacks/Food",
-            imgSrc: "Images/SnacksNFoodThumbnail.png",
-            subheading: "",
-            items: [
-                {
-                    name: "Pizza Sucuk",
-                    price: "€8.90",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Pizza Margherita",
-                    price: "€8.00",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-
-                {
-                    name: "Döner Kebab Flammkuchen",
-                    price: "€7.50",
-                    zutaten:
-                        "Flammkuchen Creme, Weißkäse, Peperoni, Hähnchen Döner Kebeb",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Sucuk Baguette",
-                    price: "€6.50",
-                    zutaten: "Sucuk, Gouda, Spezial Sauce",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Toast (Sucuk/Käse)",
-                    price: "€5.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
-
-                {
-                    name: "Nachos",
-                    price: "€4.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 2, 12",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Nussmix",
-                    price: "€4.00",
-                    zutaten: "",
-                    zusatzstoffe: "",
-                    inhalt: "",
                     alk: "",
                 },
             ],

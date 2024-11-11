@@ -488,7 +488,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Cuba Libre",
-                    price: "8.50",
+                    price: "9.90",
                     zutaten: "Rum | Cola",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 9, 14",
                     inhalt: "0,4L",

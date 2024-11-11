@@ -68,15 +68,15 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Shishas",
             imgSrc: "Images/ShishasThumbnail.png",
-            subheading: "Eisschlauch gibt's für 2.00€ extra",
-            lowerSubheading: "Topfwechsel nur 7.50€",
+            subheading: "Eisschlauch gibt's für 2.00 extra",
+            lowerSubheading: "Topfwechsel 7.50",
             // NICHT MEHR BENÖTIGT. EIN EXTRA SUBHEADING BEI SHISHAS
             // exceptSubheading:
             //     "* eingerauchte Shishas ½ Preis - Aromawechsel zum ganzen Preis",
             items: [
                 {
                     name: "Doppel Apfel",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Traube Minze",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Blaubeere Minze",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Orange Minze",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Kaugummi Zimt",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Love 66",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Beerenmix",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "Im Wechsel",
                     inhalt: "",
@@ -132,15 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Wassermelone",
-                    price: "€15.00",
-                    zutaten: "",
-                    zusatzstoffe: "",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Orange",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -148,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Erdbeere",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -156,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Banane",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -164,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Zitrone",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -172,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Kiwi",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -180,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Himbeere",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -188,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Ice Kaktus",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -196,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Ice Bonbon",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -204,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Okolum",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -213,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Haus Mix",
-                    price: "€15.00",
+                    price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -229,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Pizza Sucuk",
-                    price: "€8.90",
+                    price: "8.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -237,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Pizza Margherita",
-                    price: "€8.00",
+                    price: "8.00",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -246,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Döner Kebab Flammkuchen",
-                    price: "€7.50",
+                    price: "7.50",
                     zutaten:
                         "Flammkuchen Creme, Weißkäse, Peperoni, Hähnchen Döner Kebeb",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
@@ -255,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sucuk Baguette",
-                    price: "€6.90",
+                    price: "6.90",
                     zutaten: "Sucuk, Gouda, Spezial Sauce",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -263,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Toast (Sucuk/Käse)",
-                    price: "€5.50",
+                    price: "5.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -272,7 +264,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Nachos",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 12",
                     inhalt: "",
@@ -280,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Nussmix",
-                    price: "€4.00",
+                    price: "4.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -296,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Wasser",
-                    price: "€3.90",
+                    price: "3.90",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,33L",
@@ -304,7 +296,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Coca Cola",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 14",
                     inhalt: "0,33L",
@@ -312,7 +304,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Coca Cola Zero",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 15",
                     inhalt: "0,33L",
@@ -320,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Fanta",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 16",
                     inhalt: "0,33L",
@@ -328,7 +320,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sprite",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 17",
                     inhalt: "0,33L",
@@ -336,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Spezi Energy",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 18",
                     inhalt: "0,33L",
@@ -344,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Paulaner Spezi",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 19",
                     inhalt: "0,5L",
@@ -352,7 +344,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Red Bull Classic",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "0,25L",
@@ -368,7 +360,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Red Bull White Cocos",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "0,25L",
@@ -376,7 +368,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Elephant Bay ICE Tea verschiedene Sorten",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7",
                     inhalt: "0,33L",
@@ -384,7 +376,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Säfte",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "0,33L",
@@ -392,7 +384,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Saftschorle",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "0,33L",
@@ -400,50 +392,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Powerade Blue",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7, 10, 14, 15",
                     inhalt: "0,5L",
-                    alk: "",
-                },
-            ],
-        },
-        // Hotdrinks
-        {
-            name: "Hotdrinks",
-            imgSrc: "Images/HotdrinksThumbnail.png",
-            subheading: "Frischgemachte Heißgetränke",
-            items: [
-                {
-                    name: "Mocca (einfach)",
-                    price: "€3.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Mocca (doppelt)",
-                    price: "€3.90",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Mocca mit Milchschaum",
-                    price: "€4.20",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1, 12",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Tee",
-                    price: "€3.50",
-                    zutaten: "",
-                    zusatzstoffe: "",
-                    inhalt: "",
                     alk: "",
                 },
             ],
@@ -456,7 +408,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Augustiner Helles",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,5L",
@@ -464,7 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Desperados",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 8",
                     inhalt: "0,33L",
@@ -472,7 +424,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Franziskaner Weizen",
-                    price: "€4.20",
+                    price: "4.20",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,5L",
@@ -480,7 +432,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Cola Weizen",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 7, 9, 10, 14",
                     inhalt: "0,5L",
@@ -488,7 +440,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Radler",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 7",
                     inhalt: "0,5L",
@@ -504,7 +456,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Vodka Bull",
-                    price: "€9.90",
+                    price: "9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
@@ -512,7 +464,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Vodka Saft",
-                    price: "€9.90",
+                    price: "9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 7, 9",
                     inhalt: "4cl",
@@ -520,7 +472,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Jack Cola",
-                    price: "€9.90",
+                    price: "9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 9, 14",
                     inhalt: "4cl",
@@ -528,7 +480,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Jäger Bull",
-                    price: "€9.90",
+                    price: "9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
@@ -536,7 +488,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Cuba Libre",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten: "Rum | Cola",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 9, 14",
                     inhalt: "0,4L",
@@ -544,7 +496,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Gin Tonic",
-                    price: "€9.90",
+                    price: "9.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 4, 10",
                     inhalt: "4cl",
@@ -560,7 +512,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Touchdown",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten:
                         "Apricot Brandy | Vodka | Maracujasaft | Grenadine",
                     zusatzstoffe: "",
@@ -569,7 +521,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sex on the Beach",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten:
                         "Vodka | Ananassaft | Orangensaft | Grenadine | Apricot Brandy |",
                     zusatzstoffe: "",
@@ -578,7 +530,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Mojito",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Rum | Rohrzucker | Soda | Minze | Limette",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -586,7 +538,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Pina Colada",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Rum | Kokoslikör | Ananassaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -594,7 +546,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Long Island Ice Tea",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Vodka | Tequila | Rum | Gin | Ice Tea Pfirsich",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -602,7 +554,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Long Island Red Bull",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Vodka | Tequila | Rum | Gin | Red Bull",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -610,7 +562,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Long Island Cola",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Vodka | Tequila | Rum | Gin | Coca Cola",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -618,7 +570,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Swimming Pool",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Vodka | Kokossirup | Blue Curacao | Ananassaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -626,7 +578,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sweet Bitch",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Tequila | Orangensaft | Grenadine",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -634,7 +586,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Caipirinha",
-                    price: "€9.20",
+                    price: "9.20",
                     zutaten: "Cachaca | Limette | Rohrzucker",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -642,7 +594,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Coconut Kiss",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten:
                         "Kokossirup | Ananassaft | Orangensaft | Kirschsaft",
                     zusatzstoffe: "",
@@ -651,7 +603,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Kiba",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten: "Kirschsaft | Bananensaft",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -659,7 +611,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Summer",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten:
                         "Bitter Lemon | Maracujasaft | Kirschsaft | Ananassaft",
                     zusatzstoffe: "",
@@ -668,7 +620,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Erdbeer Tropic",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten:
                         "Erdbeersirup | Erdbeersaft | Orangensaft | Ananassaft",
                     zusatzstoffe: "",
@@ -677,7 +629,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Virgin Mojito",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten: "Limettensaft | Rohrzucker | Ginger Ale",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -685,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Red Fly Orange",
-                    price: "€8.50",
+                    price: "8.50",
                     zutaten: "Orangensaft | Grenadine | Red Bull",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
@@ -701,7 +653,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Hugo",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 16",
                     inhalt: "0,25L",
@@ -709,7 +661,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Aperol Spritz",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,25L",
@@ -717,7 +669,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Weißwein",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 14, 18",
                     inhalt: "0,25L",
@@ -725,7 +677,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Süße Weißwein Schorle",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,25L",
@@ -733,7 +685,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Wildberry Elixir Martini",
-                    price: "€4.50",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,25L",
@@ -749,7 +701,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Vodka",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -757,7 +709,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Whiskey",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -765,7 +717,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Jägermeister",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -773,7 +725,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Tequila",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -781,7 +733,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Ficken",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -789,7 +741,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Bombay Gin",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -797,7 +749,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Süßer Hausmix",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "Melonen Brandy, Vodka",
                     inhalt: "2cl",
@@ -805,7 +757,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Raki",
-                    price: "€3.00",
+                    price: "3.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "2cl",
@@ -821,7 +773,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Unser Flaschenpaket",
-                    price: "€100.00",
+                    price: "100.00",
                     zutaten: "",
                     zusatzstoffe: "1 Belvedere, 1 Shisha und 1 Nachos",
                     inhalt: "",
@@ -829,7 +781,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Smirnoff",
-                    price: "€39.00",
+                    price: "39.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "1,00L",
@@ -837,7 +789,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Absolut Vodka",
-                    price: "€49.00",
+                    price: "49.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,75L",
@@ -845,7 +797,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Belvedere",
-                    price: "€99.00",
+                    price: "99.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,75L",
@@ -853,7 +805,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Jack Daniels",
-                    price: "€79.00",
+                    price: "79.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,75L",
@@ -861,7 +813,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Chivas",
-                    price: "€79.00",
+                    price: "79.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,7L",
@@ -869,7 +821,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Hennessy",
-                    price: "€89.00",
+                    price: "89.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,7L",
@@ -877,7 +829,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Moët",
-                    price: "€99.00",
+                    price: "99.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,75L",
@@ -885,11 +837,51 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Remi Martin",
-                    price: "€99.00",
+                    price: "99.00",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "0,7L",
                     alk: "Alkoholisch",
+                },
+            ],
+        },
+        // Hotdrinks
+        {
+            name: "Hotdrinks",
+            imgSrc: "Images/HotdrinksThumbnail.png",
+            subheading: "Frischgemachte Heißgetränke",
+            items: [
+                {
+                    name: "Mocca (einfach)",
+                    price: "3.50",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 1",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Mocca (doppelt)",
+                    price: "3.90",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 1",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Mocca mit Milchschaum",
+                    price: "4.20",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 1, 12",
+                    inhalt: "",
+                    alk: "",
+                },
+                {
+                    name: "Tee",
+                    price: "3.50",
+                    zutaten: "",
+                    zusatzstoffe: "",
+                    inhalt: "",
+                    alk: "",
                 },
             ],
         },
@@ -901,7 +893,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Snickers",
-                    price: "€5.50",
+                    price: "5.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 12",
                     inhalt: "0,25L",
@@ -910,7 +902,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Oreo",
-                    price: "€5.50",
+                    price: "5.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 12",
                     inhalt: "0,25L",
@@ -918,6 +910,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
             ],
         },
+
         // Zusatzstoffe
         {
             name: "Zusatzstoffe",
@@ -1119,16 +1112,16 @@ document.addEventListener("DOMContentLoaded", function () {
             categoryHeadingElement.textContent = category.name;
             categoryHeadingContainer.appendChild(categoryHeadingElement);
 
+            const lowerSubheadingElement = document.createElement("p");
+            lowerSubheadingElement.classList.add("category-items-subheading");
+            lowerSubheadingElement.textContent = category.lowerSubheading;
+            categoryHeadingContainer.appendChild(lowerSubheadingElement);
+
             // Generate category subheading
             const subheadingElement = document.createElement("p");
             subheadingElement.classList.add("category-items-subheading");
             subheadingElement.textContent = category.subheading;
             categoryHeadingContainer.appendChild(subheadingElement);
-
-            const lowerSubheadingElement = document.createElement("p");
-            lowerSubheadingElement.classList.add("category-items-subheading");
-            lowerSubheadingElement.textContent = category.lowerSubheading;
-            categoryHeadingContainer.appendChild(lowerSubheadingElement);
 
             // const exceptSubheadingElement = document.createElement("p");
             // exceptSubheadingElement.classList.add(

@@ -892,20 +892,20 @@ document.addEventListener("DOMContentLoaded", function () {
             subheading: "Süße Milkshakes",
             items: [
                 {
-                    name: "Snickers",
+                    name: "Vanille",
                     price: "5.50",
                     zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 12",
-                    inhalt: "0,25L",
+                    zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
+                    inhalt: "0,4L",
                     alk: "",
                 },
 
                 {
-                    name: "Oreo",
+                    name: "Banane & Schoko",
                     price: "5.50",
                     zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 12",
-                    inhalt: "0,25L",
+                    zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
+                    inhalt: "0,4L",
                     alk: "",
                 },
             ],

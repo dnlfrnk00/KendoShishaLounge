@@ -901,7 +901,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
 
                 {
-                    name: "Banane & Schoko",
+                    name: "Schokolade",
+                    price: "5.50",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
+                    inhalt: "0,4L",
+                    alk: "",
+                },
+                {
+                    name: "Banane",
                     price: "5.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",

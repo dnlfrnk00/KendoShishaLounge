@@ -235,19 +235,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                     alk: "",
                 },
-
-                {
-                    name: "Döner Kebab Flammkuchen",
-                    price: "7.50",
-                    zutaten:
-                        "Flammkuchen Creme, Weißkäse, Peperoni, Hähnchen Döner Kebeb",
-                    zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
-                    alk: "",
-                },
                 {
                     name: "Sucuk Baguette",
-                    price: "6.90",
+                    price: "7.20",
                     zutaten: "Sucuk, Gouda, Spezial Sauce",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -835,14 +825,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "0,75L",
                     alk: "Alkoholisch",
                 },
-                {
-                    name: "Remi Martin",
-                    price: "99.00",
-                    zutaten: "",
-                    zusatzstoffe: "",
-                    inhalt: "0,7L",
-                    alk: "Alkoholisch",
-                },
             ],
         },
         // Hotdrinks
@@ -853,14 +835,6 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Mocca (einfach)",
-                    price: "3.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
-                    name: "Mocca (doppelt)",
                     price: "3.90",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 1",
@@ -868,16 +842,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     alk: "",
                 },
                 {
-                    name: "Mocca mit Milchschaum",
+                    name: "Mocca (doppelt)",
                     price: "4.20",
                     zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1, 12",
+                    zusatzstoffe: "Zusatzstoffe: 1",
                     inhalt: "",
                     alk: "",
                 },
                 {
                     name: "Tee",
-                    price: "3.50",
+                    price: "3.90",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",
@@ -886,38 +860,38 @@ document.addEventListener("DOMContentLoaded", function () {
             ],
         },
         // Sweet Shakes
-        {
-            name: "Sweet Shakes",
-            imgSrc: "Images/SweetShakesThumbnail.png",
-            subheading: "Süße Milkshakes",
-            items: [
-                {
-                    name: "Vanille",
-                    price: "5.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
-                    inhalt: "0,4L",
-                    alk: "",
-                },
+        // {
+        //     name: "Sweet Shakes",
+        //     imgSrc: "Images/SweetShakesThumbnail.png",
+        //     subheading: "Süße Milkshakes",
+        //     items: [
+        //         {
+        //             name: "Vanille",
+        //             price: "5.50",
+        //             zutaten: "",
+        //             zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
+        //             inhalt: "0,4L",
+        //             alk: "",
+        //         },
 
-                {
-                    name: "Schokolade",
-                    price: "5.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
-                    inhalt: "0,4L",
-                    alk: "",
-                },
-                {
-                    name: "Banane",
-                    price: "5.50",
-                    zutaten: "",
-                    zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
-                    inhalt: "0,4L",
-                    alk: "",
-                },
-            ],
-        },
+        //         {
+        //             name: "Schokolade",
+        //             price: "5.50",
+        //             zutaten: "",
+        //             zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
+        //             inhalt: "0,4L",
+        //             alk: "",
+        //         },
+        //         {
+        //             name: "Banane",
+        //             price: "5.50",
+        //             zutaten: "",
+        //             zusatzstoffe: "Zusatzstoffe: 1, 2, 3, 7, 9, 10, 12, 14",
+        //             inhalt: "0,4L",
+        //             alk: "",
+        //         },
+        //     ],
+        // },
 
         // Zusatzstoffe
         {

@@ -251,6 +251,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     inhalt: "",
                     alk: "",
                 },
+                {
+                    name: "Schoko-Soufflé",
+                    price: "6.90",
+                    zutaten: "",
+                    zusatzstoffe: "Zusatzstoffe: 2, 7, 9, 12, 15",
+                    inhalt: "",
+                    alk: "",
+                },
 
                 {
                     name: "Nachos",

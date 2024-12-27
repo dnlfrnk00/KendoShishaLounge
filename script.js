@@ -591,6 +591,31 @@ document.addEventListener("DOMContentLoaded", function () {
                     alk: "Alkoholisch",
                 },
                 {
+                    name: "Virgin Colada",
+                    price: "8.50",
+                    zutaten: "Ananassaft | Kokossirup",
+                    zusatzstoffe: "",
+                    inhalt: "0,4L",
+                    alk: "Alkoholfrei",
+                },
+                {
+                    name: "Havanna Juicer",
+                    price: "8.50",
+                    zutaten:
+                        "Maracujasaft | Pfirsichsirup | Orangensaft | Grenadine | Johannisbeersaft",
+                    zusatzstoffe: "",
+                    inhalt: "0,4L",
+                    alk: "Alkoholfrei",
+                },
+                {
+                    name: "Exotic Ipanema",
+                    price: "8.50",
+                    zutaten: "Maracujasaft | Limette | Mineralwasser",
+                    zusatzstoffe: "",
+                    inhalt: "0,4L",
+                    alk: "Alkoholfrei",
+                },
+                {
                     name: "Coconut Kiss",
                     price: "8.50",
                     zutaten:
@@ -608,35 +633,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     alk: "Alkoholfrei",
                 },
                 {
-                    name: "Summer",
-                    price: "8.50",
-                    zutaten:
-                        "Bitter Lemon | Maracujasaft | Kirschsaft | Ananassaft",
-                    zusatzstoffe: "",
-                    inhalt: "0,4L",
-                    alk: "Alkoholfrei",
-                },
-                {
-                    name: "Erdbeer Tropic",
-                    price: "8.50",
-                    zutaten:
-                        "Erdbeersirup | Erdbeersaft | Orangensaft | Ananassaft",
-                    zusatzstoffe: "",
-                    inhalt: "0,4L",
-                    alk: "Alkoholfrei",
-                },
-                {
                     name: "Virgin Mojito",
                     price: "8.50",
                     zutaten: "Limettensaft | Rohrzucker | Ginger Ale",
-                    zusatzstoffe: "",
-                    inhalt: "0,4L",
-                    alk: "Alkoholfrei",
-                },
-                {
-                    name: "Red Fly Orange",
-                    price: "8.50",
-                    zutaten: "Orangensaft | Grenadine | Red Bull",
                     zusatzstoffe: "",
                     inhalt: "0,4L",
                     alk: "Alkoholfrei",

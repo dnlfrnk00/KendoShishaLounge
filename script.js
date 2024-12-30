@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sucuk Baguette",
-                    price: "7.20",
+                    price: "7.50",
                     zutaten: "Sucuk, Gouda, Spezial Sauce",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",

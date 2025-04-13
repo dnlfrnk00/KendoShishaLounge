@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     alk: "",
                 },
                 {
-                    name: "Beerenmix",
+                    name: "African",
                     price: "15.00",
                     zutaten: "",
                     zusatzstoffe: "Im Wechsel",

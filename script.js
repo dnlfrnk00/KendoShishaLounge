@@ -139,14 +139,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     alk: "",
                 },
                 {
-                    name: "Erdbeere",
-                    price: "15.00",
-                    zutaten: "",
-                    zusatzstoffe: "",
-                    inhalt: "",
-                    alk: "",
-                },
-                {
                     name: "Banane",
                     price: "15.00",
                     zutaten: "",

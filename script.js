@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
             items: [
                 {
                     name: "Pizza Sucuk",
-                    price: "8.90",
+                    price: "9.50",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Pizza Margherita",
-                    price: "8.00",
+                    price: "9.00",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
                     inhalt: "",
@@ -237,10 +237,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
                 {
                     name: "Sucuk Baguette",
-                    price: "7.50",
+                    price: "8.50",
                     zutaten: "Sucuk, Gouda, Spezial Sauce",
                     zusatzstoffe: "Zusatzstoffe: 2, 9, 11, 12, 15",
-                    inhalt: "",
+                    inhalt: "Mit Cocktailsoße-Dip",
                     alk: "",
                 },
                 {
@@ -254,15 +254,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 {
                     name: "Nachos",
-                    price: "4.50",
+                    price: "5.20",
                     zutaten: "",
                     zusatzstoffe: "Zusatzstoffe: 2, 12",
-                    inhalt: "",
+                    inhalt: "Mit Käse & Salsa Dip",
                     alk: "",
                 },
                 {
                     name: "Nussmix",
-                    price: "4.00",
+                    price: "4.50",
                     zutaten: "",
                     zusatzstoffe: "",
                     inhalt: "",

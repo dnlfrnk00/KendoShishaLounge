@@ -1,0 +1,44 @@
+:root {
+    /* Colors */
+    /* Kendo Red/Fire Palette */
+    --primary-red: #dc2626;
+    /* Red 600 */
+    --secondary-red: #991b1b;
+    /* Red 800 */
+    --deep-red: #450a0a;
+    /* Red 950 */
+    --glow-red: #f87171;
+    /* Red 400 */
+
+    --deep-black: #050505;
+    --surface-black: #121212;
+
+    /* Accents */
+    --accent-color: #fca5a5;
+    /* Red 300 */
+    --accent-dim: #ef4444;
+    /* Red 500 */
+
+    --text-main: #ffffff;
+    --text-dim: #b3b3b3;
+
+    --neon-glow: 0 0 15px rgba(220, 38, 38, 0.6);
+    --red-glow-strong: 0 0 30px rgba(153, 27, 27, 0.5);
+
+    /* Typography */
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Inter', sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 48px;
+
+    /* Effects */
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+    --glass-blur: blur(10px);
+    --transition-standard: all 0.3s ease;
+}

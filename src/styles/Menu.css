@@ -1,0 +1,288 @@
+.menu-page {
+    position: relative;
+    min-height: 100vh;
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+.menu-background-glow {
+    position: fixed;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120vw;
+    height: 90vh;
+    background: radial-gradient(ellipse at 50% 30%,
+            rgba(0, 0, 0, 1) 15%,
+            rgba(50, 0, 0, 0.95) 25%,
+            rgba(220, 38, 38, 0.5) 35%,
+            rgba(220, 38, 38, 0.1) 55%,
+            transparent 75%);
+    z-index: 0;
+    filter: blur(40px);
+    pointer-events: none;
+    mix-blend-mode: screen;
+    opacity: 0.9;
+}
+
+/* Header */
+.menu-header {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding-top: 50px;
+    /* Increased spacing */
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom, rgba(5, 5, 5, 0.95), transparent);
+}
+
+.menu-logo-link {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.menu-logo-link:hover {
+    transform: scale(1.05);
+}
+
+.menu-logo-small img {
+    width: 60px;
+    /* Increased size */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    border: 1px solid var(--primary-red);
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.3);
+}
+
+.menu-title {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Tabs */
+.main-tabs-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    /* Reduced gap */
+    padding: 15px 10px;
+    /* Reduced side padding */
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.main-tab {
+    padding: 8px 16px;
+    /* Reduced padding */
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    /* Pill shape */
+    color: var(--text-dim);
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    /* Slightly smaller font */
+    letter-spacing: 0.5px;
+    position: relative;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    flex: 0 1 auto;
+    /* Allow shrinking if needed */
+    white-space: nowrap;
+}
+
+.main-tab:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+.main-tab.active {
+    background: linear-gradient(135deg, var(--secondary-red), var(--deep-red));
+    border-color: var(--primary-red);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+}
+
+.main-tab.active::after {
+    display: none;
+    /* Remove the underline effect */
+}
+
+/* Sub Tabs */
+.sub-tabs-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.sub-tabs-container::-webkit-scrollbar {
+    display: none;
+}
+
+.sub-tab {
+    white-space: nowrap;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    /* Unified Gradient Effect */
+    /* Vivid non-ordinary gradient spanning across buttons */
+    /* Dark Deep -> Vibrant Red -> Bright -> Vibrant Red -> Dark Deep */
+    background-image: linear-gradient(90deg,
+            #0a0000 0%,
+            #4a0505 20%,
+            var(--primary-red) 50%,
+            #4a0505 80%,
+            #0a0000 100%);
+    /* Size and position are handled by JS to create the continuous effect */
+    background-repeat: no-repeat;
+
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+    /* Slightly dim inactive ones */
+}
+
+.sub-tab:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.sub-tab.active {
+    border-color: #fff;
+    color: #fff;
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(220, 38, 38, 0.5);
+    font-weight: 600;
+}
+
+/* Content */
+.menu-content {
+    position: relative;
+    z-index: 10;
+    padding: 0 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-name {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.cat-sub,
+.cat-lower {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    font-family: var(--font-sans);
+    font-weight: 300;
+    margin: 2px 0;
+}
+
+/* List Layout (Minimalistic) */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item-row {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-item-row:last-child {
+    border-bottom: none;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+
+.item-name {
+    font-family: var(--font-sans);
+    /* Brutally clean sans-serif */
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.item-price {
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    /* Bright neutral white */
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.item-desc {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.item-additives {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    /* Small but readable */
+    color: #888;
+    /* Subtle grey */
+    margin-top: 2px;
+    font-style: normal;
+    display: block;
+    /* Ensure it takes its own line */
+}
+
+.item-badge {
+    align-self: flex-start;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}

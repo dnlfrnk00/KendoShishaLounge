@@ -1,0 +1,162 @@
+.burger-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 200;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.burger-toggle:hover {
+    background: rgba(220, 38, 38, 0.2);
+    border-color: var(--primary-red);
+}
+
+.burger-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 201;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.burger-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.burger-drawer {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    width: 320px;
+    height: 100vh;
+    background: linear-gradient(180deg,
+            #0a0505 0%,
+            #1a0505 50%,
+            #0a0505 100%);
+    z-index: 202;
+    transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -10px 0 50px rgba(0, 0, 0, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Subtle background pattern/glow */
+.burger-drawer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 100% 0%, rgba(220, 38, 38, 0.1) 0%, transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.burger-drawer.open {
+    right: 0;
+}
+
+.burger-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.burger-content {
+    padding: 80px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* Pushes footer down */
+    position: relative;
+    z-index: 1;
+}
+
+.burger-footer-wrapper {
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    /* Adjust Footer styles if needed within drawer */
+    --footer-bg: transparent;
+    /* Example variable if footer uses it */
+}
+
+/* Override Footer styles inside drawer to remove top border/margin if needed */
+.burger-footer-wrapper .main-footer {
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background: transparent;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.burger-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.burger-logo h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--primary-red);
+    letter-spacing: 2px;
+}
+
+.burger-logo span {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    letter-spacing: 4px;
+}
+
+.burger-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.burger-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    color: var(--text-main);
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.burger-link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--primary-red);
+}
+
+.burger-link.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

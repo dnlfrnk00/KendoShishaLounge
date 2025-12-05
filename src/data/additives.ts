@@ -1,0 +1,21 @@
+export const additivesMap: Record<string, string> = {
+    "1": "koffeinhaltig",
+    "2": "mit Farbstoff",
+    "3": "mit Antioxidationsmittel",
+    "4": "chininhaltig",
+    "5": "mit Konservierungsstoff",
+    "6": "mit Geschmacksverstärker",
+    "7": "mit Süßungsmittel",
+    "8": "enthält eine Phenylalaninquelle",
+    "9": "mit Konservierungsstoff",
+    "10": "taurinhaltig",
+    "11": "mit Geschmacksverstärker",
+    "12": "mit Milcheiweiß",
+    "13": "gewachst",
+    "14": "mit Phosphat",
+    "15": "mit Nitritpökelsalz",
+    "16": "mit Schwefeldioxid",
+    "17": "mit Säuerungsmittel",
+    "18": "mit Stabilisatoren",
+    "19": "mit Süßungsmittel(n)"
+};

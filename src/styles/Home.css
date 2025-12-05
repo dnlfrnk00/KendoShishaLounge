@@ -1,0 +1,254 @@
+.home-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    overflow-x: hidden;
+    color: var(--text-main);
+}
+
+.home-content-wrapper {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 480px;
+}
+
+/* Logo Section */
+.home-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.main-logo-img {
+    max-width: 140px;
+    /* Reduced size */
+    height: auto;
+    mix-blend-mode: screen;
+    filter: drop-shadow(0 0 10px rgba(220, 38, 38, 0.3));
+}
+
+/* Welcome Text */
+.welcome-text {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+    background: linear-gradient(to right, #fff, #e0e0e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.5px;
+}
+
+/* Hero Image Carousel */
+.hero-image-container {
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    aspect-ratio: 16/10;
+    padding: 2px;
+    background: linear-gradient(45deg, var(--deep-red), var(--primary-red));
+    overflow: hidden;
+}
+
+.hero-image {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    object-fit: cover;
+    border-radius: 14px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    z-index: 1;
+}
+
+.hero-image.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.indicator.active {
+    background: #fff;
+    transform: scale(1.2);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.hero-glow {
+    position: absolute;
+    /* Move to background top */
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120vw;
+    height: 80vh;
+    /* Covers top half well */
+
+    /* Interstellar "Gargantua" Effect - Static, Top-Heavy */
+    background: radial-gradient(ellipse at 50% 40%,
+            rgba(0, 0, 0, 1) 20%,
+            /* Deep Black Hole Center */
+            rgba(50, 0, 0, 0.9) 30%,
+            /* Accretion Edge (Dark) */
+            rgba(220, 38, 38, 0.6) 40%,
+            /* Accretion Disk (Red) */
+            rgba(220, 38, 38, 0.1) 60%,
+            /* Faint Outer Glow */
+            transparent 75%);
+
+    /* Mask to ensure lower part is "empty" */
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);
+
+    z-index: 5;
+    /* Lower than content (z-index 10) */
+    filter: blur(35px);
+    pointer-events: none;
+    mix-blend-mode: screen;
+    /* Helps clean transparency blending */
+
+    /* No animation as requested */
+}
+
+/* Owner Info */
+.owner-info {
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.owner-text {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--text-dim);
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+
+/* Primary Button */
+.action-container {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.primary-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, var(--deep-red), var(--secondary-red));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+}
+
+.primary-button:hover {
+    background: linear-gradient(135deg, var(--secondary-red), var(--primary-red));
+    box-shadow: 0 6px 25px rgba(220, 38, 38, 0.5);
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease;
+}
+
+.primary-button:hover .arrow-icon {
+    transform: translateX(4px);
+}
+
+/* Secondary Links */
+.secondary-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: rgba(15, 15, 15, 0.6);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    text-align: left;
+    transition: background 0.2s ease;
+}
+
+.link-item:hover {
+    background: rgba(220, 38, 38, 0.15);
+    /* Red tint on hover */
+}
+
+.link-icon {
+    margin-right: 1rem;
+    color: var(--accent-color);
+}
+
+.link-text {
+    flex-grow: 1;
+    font-weight: 400;
+}
+
+.link-arrow {
+    color: var(--text-dim);
+    opacity: 0.5;
+}

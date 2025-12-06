@@ -157,9 +157,7 @@ export const menuData: MainCategory[] = [
                     { name: "Kaffee Crema", price: "3.90", zutaten: "", zusatzstoffe: "1", inhalt: "", alk: "" },
                     { name: "Latte Macchiato", price: "4.50", zutaten: "", zusatzstoffe: "1, 12, 17", inhalt: "", alk: "" },
                     { name: "Cappuccino", price: "4.20", zutaten: "", zusatzstoffe: "1, 12", inhalt: "", alk: "" },
-                    { name: "Heiße Schokolade", price: "4.50", zutaten: "", zusatzstoffe: "12", inhalt: "", alk: "" },
                     { name: "Tee (verschiedene Sorten)", price: "3.90", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
-                    { name: "Frischer Minztee", price: "4.20", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                 ]
             }
         ]

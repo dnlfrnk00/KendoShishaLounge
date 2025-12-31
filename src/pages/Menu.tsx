@@ -1,28 +1,35 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { menuData } from '../data/menu';
-import type { MainCategory, SubCategory } from '../types/menu';
+
+
 import BurgerMenu from '../components/BurgerMenu';
 import Background3D from '../components/Background3D';
 import Footer from '../components/Footer';
 import '../styles/Menu.css';
 
 const Menu: React.FC = () => {
-    const [activeMain, setActiveMain] = useState<MainCategory>(menuData[0]);
-    const [activeSub, setActiveSub] = useState<SubCategory>(menuData[0].subCategories[0]);
+    // State now stores Primitives (IDs/Strings) to prevent stale object references
+    const [activeMainId, setActiveMainId] = useState<string>(menuData[0].id);
+    const [activeSubName, setActiveSubName] = useState<string>(menuData[0].subCategories[0].name);
     const [showTooltip, setShowTooltip] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
 
     const subTabsRef = useRef<HTMLDivElement>(null);
 
-    // Derived state to ensure we always display valid subcategories for the active main category
-    // This fixes the bug where Shishas heading might show Getränke tab names during transitions
-    const displayedSub = activeMain.subCategories.find(sub => sub.name === activeSub.name) || activeMain.subCategories[0];
+    // DERIVED STATE: Always recalculate active objects based on current IDs
+    // This source-of-truth approach prevents any mismatch between selected tab and content
+    const activeMain = menuData.find(m => m.id === activeMainId) || menuData[0];
 
-    // When main category changes, reset sub category to the first one
-    const handleMainChange = (category: MainCategory) => {
-        setActiveMain(category);
-        setActiveSub(category.subCategories[0]);
+    // Ensure activeSub is ALWAYS a child of activeMain. 
+    // If activeSubName doesn't exist in activeMain, fall back to the first subcategory.
+    const activeSub = activeMain.subCategories.find(s => s.name === activeSubName) || activeMain.subCategories[0];
+
+    // When main category changes, reset sub category to the first one of the NEW main category
+    const handleMainChange = (id: string) => {
+        setActiveMainId(id);
+        const newMain = menuData.find(m => m.id === id) || menuData[0];
+        setActiveSubName(newMain.subCategories[0].name);
     };
 
     // Scroll active sub tab into view
@@ -33,7 +40,7 @@ const Menu: React.FC = () => {
                 activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
             }
         }
-    }, [displayedSub]);
+    }, [activeSub]);
 
     // Helper to close tooltip with animation
     const closeTooltip = () => {
@@ -75,8 +82,8 @@ const Menu: React.FC = () => {
                 {menuData.map((category) => (
                     <button
                         key={category.id}
-                        className={`main-tab ${activeMain.id === category.id ? 'active' : ''}`}
-                        onClick={() => handleMainChange(category)}
+                        className={`main-tab ${activeMainId === category.id ? 'active' : ''}`}
+                        onClick={() => handleMainChange(category.id)}
                     >
                         {category.label.toUpperCase()}
                     </button>
@@ -94,8 +101,8 @@ const Menu: React.FC = () => {
                         return (
                             <button
                                 key={index}
-                                className={`sub-tab ${displayedSub.name === sub.name ? 'active' : ''}`}
-                                onClick={() => setActiveSub(sub)}
+                                className={`sub-tab ${activeSub.name === sub.name ? 'active' : ''}`}
+                                onClick={() => setActiveSubName(sub.name)}
                                 style={{
                                     backgroundSize: bgSize,
                                     backgroundPosition: bgPos
@@ -108,16 +115,17 @@ const Menu: React.FC = () => {
                 </div>
             )}
 
-            <div className="menu-content">
+            {/* Force component remount on main category change using key */}
+            <div className="menu-content" key={activeMainId}>
                 {/* Category Header */}
                 <div className="category-header">
-                    <h2 className="category-name">{displayedSub.name}</h2>
-                    {displayedSub.subheading && <p className="cat-sub">{displayedSub.subheading}</p>}
-                    {displayedSub.lowerSubheading && <p className="cat-lower">{displayedSub.lowerSubheading}</p>}
+                    <h2 className="category-name">{activeSub.name}</h2>
+                    {activeSub.subheading && <p className="cat-sub">{activeSub.subheading}</p>}
+                    {activeSub.lowerSubheading && <p className="cat-lower">{activeSub.lowerSubheading}</p>}
 
-                    {displayedSub.extras && (
+                    {activeSub.extras && (
                         <div className="menu-extras">
-                            {displayedSub.extras.map((extra, i) => {
+                            {activeSub.extras.map((extra, i) => {
                                 const isMixedPot = extra.label === 'Gemischter Topf';
                                 return (
                                     <div key={i} className="menu-extra-row">
@@ -167,7 +175,7 @@ const Menu: React.FC = () => {
                 </div>
 
                 <div className="menu-list">
-                    {displayedSub.items.map((item, index) => (
+                    {activeSub.items.map((item, index) => (
                         <div key={index} className="menu-item-row">
                             <div className="item-info">
                                 <div className="item-header">

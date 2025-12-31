@@ -7,11 +7,18 @@ export interface MenuItem {
     alk: string;
 }
 
+export interface MenuExtra {
+    label: string;
+    price: string;
+    oldPrice?: string;
+}
+
 export interface SubCategory {
     name: string;
     imgSrc: string;
     subheading: string;
     lowerSubheading?: string;
+    extras?: MenuExtra[];
     items: MenuItem[];
 }
 

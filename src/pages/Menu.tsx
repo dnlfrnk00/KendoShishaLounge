@@ -10,8 +10,15 @@ import '../styles/Menu.css';
 const Menu: React.FC = () => {
     const [activeMain, setActiveMain] = useState<MainCategory>(menuData[0]);
     const [activeSub, setActiveSub] = useState<SubCategory>(menuData[0].subCategories[0]);
+    const [showTooltip, setShowTooltip] = useState(false);
+    const [isClosing, setIsClosing] = useState(false);
 
     const subTabsRef = useRef<HTMLDivElement>(null);
+
+    // Scroll to top on mount
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     // When main category changes, reset sub category to the first one
     const handleMainChange = (category: MainCategory) => {
@@ -28,6 +35,26 @@ const Menu: React.FC = () => {
             }
         }
     }, [activeSub]);
+
+    // Helper to close tooltip with animation
+    const closeTooltip = () => {
+        setIsClosing(true);
+        setTimeout(() => {
+            setShowTooltip(false);
+            setIsClosing(false);
+        }, 400); // Match CSS animation duration
+    };
+
+    // Auto-dismiss tooltip after 5 seconds
+    useEffect(() => {
+        let timer: any;
+        if (showTooltip && !isClosing) {
+            timer = setTimeout(() => {
+                closeTooltip();
+            }, 5000);
+        }
+        return () => clearTimeout(timer);
+    }, [showTooltip, isClosing]);
 
     return (
         <div className="menu-page">
@@ -62,8 +89,6 @@ const Menu: React.FC = () => {
                 <div className="sub-tabs-container" ref={subTabsRef}>
                     {activeMain.subCategories.map((sub, index) => {
                         const total = activeMain.subCategories.length;
-                        // Calculate background position to span the gradient across all items
-                        // We use a wide background size (e.g., 100% * total) and shift it based on index
                         const bgSize = `${total * 100}% 100%`;
                         const bgPos = `${(index / (total - 1 || 1)) * 100}% center`;
 
@@ -85,14 +110,61 @@ const Menu: React.FC = () => {
             )}
 
             <div className="menu-content">
-                {/* Category Header Image & Info */}
+                {/* Category Header */}
                 <div className="category-header">
-                    {/* We can use the imgSrc here as a banner if desired, or just keep it text based for minimalism */}
-                    {/* <img src={activeSub.imgSrc} alt={activeSub.name} className="category-banner" /> */}
-
                     <h2 className="category-name">{activeSub.name}</h2>
                     {activeSub.subheading && <p className="cat-sub">{activeSub.subheading}</p>}
                     {activeSub.lowerSubheading && <p className="cat-lower">{activeSub.lowerSubheading}</p>}
+
+                    {activeSub.extras && (
+                        <div className="menu-extras">
+                            {activeSub.extras.map((extra, i) => {
+                                const isMixedPot = extra.label === 'Gemischter Topf';
+                                return (
+                                    <div key={i} className="menu-extra-row">
+                                        <div
+                                            className={`extra-label-container ${isMixedPot ? 'clickable' : ''}`}
+                                            onClick={isMixedPot ? (e) => {
+                                                e.stopPropagation();
+                                                if (showTooltip) closeTooltip();
+                                                else setShowTooltip(true);
+                                            } : undefined}
+                                        >
+                                            <span className="extra-label">
+                                                {extra.label}
+                                            </span>
+                                            {isMixedPot && (
+                                                <button
+                                                    className={`extra-info-btn ${showTooltip ? 'active' : ''}`}
+                                                    aria-label="Info"
+                                                >
+                                                    i
+                                                </button>
+                                            )}
+
+                                            {/* Tooltip anchored to the label */}
+                                            {isMixedPot && showTooltip && (
+                                                <div
+                                                    className={`tooltip-bubble ${isClosing ? 'closing' : ''}`}
+                                                    onClick={(e) => e.stopPropagation()}
+                                                >
+                                                    <div className="tooltip-content-text">
+                                                        <strong>Mix 2 Sorten</strong> in einem Kopf für ein einzigartiges Geschmackserlebnis.
+                                                    </div>
+                                                    <div className="tooltip-progress-bar"></div>
+                                                </div>
+                                            )}
+                                        </div>
+
+                                        <div className="extra-prices">
+                                            {extra.oldPrice && <span className="extra-old-price">{extra.oldPrice}</span>}
+                                            <span className="extra-price">{extra.price}</span>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    )}
                 </div>
 
                 <div className="menu-list">
@@ -126,4 +198,3 @@ const Menu: React.FC = () => {
 };
 
 export default Menu;
-

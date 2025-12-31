@@ -8,8 +8,12 @@ export const menuData: MainCategory[] = [
             {
                 name: "Shishas",
                 imgSrc: "/Images/ShishasThumbnail.png",
-                subheading: "Eisschlauch gibt's für 2.00 extra",
-                lowerSubheading: "Topfwechsel 7.50",
+                subheading: "",
+                extras: [
+                    { label: "Gemischter Topf", price: "16.50", oldPrice: "15.00" },
+                    { label: "Topfwechsel", price: "8.50" },
+                    { label: "Eisschlauch", price: "2.00" },
+                ],
                 items: [
                     { name: "Doppel Apfel", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Traube Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
@@ -19,7 +23,6 @@ export const menuData: MainCategory[] = [
                     { name: "Love 66", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "African", price: "15.00", zutaten: "", zusatzstoffe: "Im Wechsel", inhalt: "", alk: "" },
                     { name: "Wassermelone", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
-                    { name: "Banane", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Zitrone", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Kiwi", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Himbeere", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
@@ -27,7 +30,7 @@ export const menuData: MainCategory[] = [
                     { name: "Ice Bonbon", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Pistazie Vanille", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Okolum", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
-                    { name: "Haus Mix", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
+                    { name: "Haus Mix", price: "16.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                 ]
             }
         ]

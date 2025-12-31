@@ -15,10 +15,9 @@ const Menu: React.FC = () => {
 
     const subTabsRef = useRef<HTMLDivElement>(null);
 
-    // Scroll to top on mount
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // Derived state to ensure we always display valid subcategories for the active main category
+    // This fixes the bug where Shishas heading might show Getränke tab names during transitions
+    const displayedSub = activeMain.subCategories.find(sub => sub.name === activeSub.name) || activeMain.subCategories[0];
 
     // When main category changes, reset sub category to the first one
     const handleMainChange = (category: MainCategory) => {
@@ -34,7 +33,7 @@ const Menu: React.FC = () => {
                 activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
             }
         }
-    }, [activeSub]);
+    }, [displayedSub]);
 
     // Helper to close tooltip with animation
     const closeTooltip = () => {
@@ -47,7 +46,7 @@ const Menu: React.FC = () => {
 
     // Auto-dismiss tooltip after 5 seconds
     useEffect(() => {
-        let timer: any;
+        let timer: ReturnType<typeof setTimeout>;
         if (showTooltip && !isClosing) {
             timer = setTimeout(() => {
                 closeTooltip();
@@ -95,7 +94,7 @@ const Menu: React.FC = () => {
                         return (
                             <button
                                 key={index}
-                                className={`sub-tab ${activeSub.name === sub.name ? 'active' : ''}`}
+                                className={`sub-tab ${displayedSub.name === sub.name ? 'active' : ''}`}
                                 onClick={() => setActiveSub(sub)}
                                 style={{
                                     backgroundSize: bgSize,
@@ -112,13 +111,13 @@ const Menu: React.FC = () => {
             <div className="menu-content">
                 {/* Category Header */}
                 <div className="category-header">
-                    <h2 className="category-name">{activeSub.name}</h2>
-                    {activeSub.subheading && <p className="cat-sub">{activeSub.subheading}</p>}
-                    {activeSub.lowerSubheading && <p className="cat-lower">{activeSub.lowerSubheading}</p>}
+                    <h2 className="category-name">{displayedSub.name}</h2>
+                    {displayedSub.subheading && <p className="cat-sub">{displayedSub.subheading}</p>}
+                    {displayedSub.lowerSubheading && <p className="cat-lower">{displayedSub.lowerSubheading}</p>}
 
-                    {activeSub.extras && (
+                    {displayedSub.extras && (
                         <div className="menu-extras">
-                            {activeSub.extras.map((extra, i) => {
+                            {displayedSub.extras.map((extra, i) => {
                                 const isMixedPot = extra.label === 'Gemischter Topf';
                                 return (
                                     <div key={i} className="menu-extra-row">
@@ -168,7 +167,7 @@ const Menu: React.FC = () => {
                 </div>
 
                 <div className="menu-list">
-                    {activeSub.items.map((item, index) => (
+                    {displayedSub.items.map((item, index) => (
                         <div key={index} className="menu-item-row">
                             <div className="item-info">
                                 <div className="item-header">

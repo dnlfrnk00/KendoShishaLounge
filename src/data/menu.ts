@@ -104,7 +104,7 @@ export const menuData: MainCategory[] = [
                     { name: "Havanna Juicer", price: "8.50", zutaten: "Maracujasaft | Pfirsichsirup | Orangensaft | Grenadine | Johannisbeersaft", zusatzstoffe: "", inhalt: "0,4L", alk: "Alkoholfrei" },
                     { name: "Exotic Ipanema", price: "8.50", zutaten: "Maracujasaft | Limette | Mineralwasser", zusatzstoffe: "", inhalt: "0,4L", alk: "Alkoholfrei" },
                     { name: "Coconut Kiss", price: "8.50", zutaten: "Kokossirup | Ananassaft | Orangensaft | Kirschsaft", zusatzstoffe: "", inhalt: "0,4L", alk: "Alkoholfrei" },
-                    { name: "Kiba", price: "8.50", zutaten: "Kirschsaft | Bananensaft", zusatzstoffe: "", inhalt: "0,4L", alk: "Alkoholfrei" },
+                    { name: "Kiba", price: "6.50", zutaten: "Kirschsaft | Bananensaft", zusatzstoffe: "", inhalt: "0,4L", alk: "Alkoholfrei" },
                     { name: "Virgin Mojito", price: "8.50", zutaten: "Limettensaft | Rohrzucker | Ginger Ale", zusatzstoffe: "", inhalt: "0,4L", alk: "Alkoholfrei" },
                 ]
             },

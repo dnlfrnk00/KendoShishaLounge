@@ -50,6 +50,7 @@ export const menuData: MainCategory[] = [
                     { name: "Fanta", price: "4.20", zutaten: "", zusatzstoffe: "1, 2, 3, 7, 9, 10, 16", inhalt: "0,33L", alk: "" },
                     { name: "Sprite", price: "4.20", zutaten: "", zusatzstoffe: "1, 2, 3, 7, 9, 10, 17", inhalt: "0,33L", alk: "" },
                     { name: "Spezi Energy", price: "4.20", zutaten: "", zusatzstoffe: "1, 2, 3, 7, 9, 10, 18", inhalt: "0,33L", alk: "" },
+                    { name: "Spezi Energy Zero", price: "4.20", zutaten: "", zusatzstoffe: "1, 2, 3, 7, 9, 10, 18", inhalt: "0,33L", alk: "" },
                     { name: "Paulaner Spezi", price: "4.20", zutaten: "", zusatzstoffe: "1, 2, 3, 7, 9, 10, 19", inhalt: "0,5L", alk: "" },
                     { name: "Red Bull Classic", price: "4.20", zutaten: "", zusatzstoffe: "1, 4, 10", inhalt: "0,25L", alk: "" },
                     { name: "Red Bull Zero", price: "4.20", zutaten: "", zusatzstoffe: "1, 4, 10", inhalt: "0,25L", alk: "" },

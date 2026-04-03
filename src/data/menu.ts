@@ -19,6 +19,7 @@ export const menuData: MainCategory[] = [
                     { name: "Traube Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Blaubeere Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Orange Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
+                    { name: "Falim Red", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Kaugummi Zimt", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Love 66", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "African", price: "15.00", zutaten: "", zusatzstoffe: "Im Wechsel", inhalt: "", alk: "" },

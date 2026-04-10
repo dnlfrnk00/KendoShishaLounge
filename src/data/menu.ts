@@ -27,6 +27,7 @@ export const menuData: MainCategory[] = [
                     { name: "Zitrone", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Kiwi", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Himbeere", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
+                    { name: "Ice Birne", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Ice Kaktus", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Ice Bonbon", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Pistazie Vanille", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },

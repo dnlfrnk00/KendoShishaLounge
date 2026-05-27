@@ -71,8 +71,8 @@ export const menuData: MainCategory[] = [
                     { name: "Augustiner Helles", price: "4.20", zutaten: "", zusatzstoffe: "", inhalt: "0,5L", alk: "Alkoholisch" },
                     { name: "Desperados", price: "4.50", zutaten: "", zusatzstoffe: "8", inhalt: "0,33L", alk: "Alkoholisch" },
                     { name: "Franziskaner Weizen", price: "4.20", zutaten: "", zusatzstoffe: "", inhalt: "0,5L", alk: "Alkoholisch" },
-                    { name: "Cola Weizen", price: "4.50", zutaten: "", zusatzstoffe: "1, 2, 7, 9, 10, 14", inhalt: "0,5L", alk: "Alkoholisch" },
-                    { name: "Radler", price: "4.50", zutaten: "", zusatzstoffe: "7", inhalt: "0,5L", alk: "Alkoholisch" },
+                    { name: "Cola Weizen", price: "4.90", zutaten: "", zusatzstoffe: "1, 2, 7, 9, 10, 14", inhalt: "0,5L", alk: "Alkoholisch" },
+                    { name: "Radler", price: "4.90", zutaten: "", zusatzstoffe: "7", inhalt: "0,5L", alk: "Alkoholisch" },
                 ]
             },
             {
@@ -177,10 +177,10 @@ export const menuData: MainCategory[] = [
                 imgSrc: "/Images/SnacksNFoodThumbnail.png",
                 subheading: "",
                 items: [
-                    { name: "Obstteller", price: "8.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
-                    { name: "Pizza Sucuk", price: "9.50", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
+                    { name: "Obstteller", price: "9.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
+                    { name: "Pizza Sucuk", price: "10.50", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
                     { name: "Pizza Margherita", price: "9.00", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
-                    { name: "Sucuk Baguette", price: "8.50", zutaten: "Sucuk, Gouda, Spezial Sauce", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "Mit Cocktailsoße-Dip", alk: "" },
+                    { name: "Sucuk Baguette", price: "9.00", zutaten: "Sucuk, Gouda, Spezial Sauce", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "Mit Cocktailsoße-Dip", alk: "" },
                     { name: "Toast (Sucuk/Käse)", price: "5.50", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
                     { name: "Nachos", price: "5.20", zutaten: "", zusatzstoffe: "2, 12", inhalt: "Mit Käse & Salsa Dip", alk: "" },
                     { name: "Nussmix", price: "4.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },

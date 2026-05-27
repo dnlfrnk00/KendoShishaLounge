@@ -179,7 +179,7 @@ export const menuData: MainCategory[] = [
                 items: [
                     { name: "Obstteller", price: "9.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Pizza Sucuk", price: "10.50", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
-                    { name: "Pizza Margherita", price: "9.00", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
+                    { name: "Pizza Margherita", price: "9.50", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
                     { name: "Sucuk Baguette", price: "9.00", zutaten: "Sucuk, Gouda, Spezial Sauce", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "Mit Cocktailsoße-Dip", alk: "" },
                     { name: "Toast (Sucuk/Käse)", price: "5.50", zutaten: "", zusatzstoffe: "2, 9, 11, 12, 15", inhalt: "", alk: "" },
                     { name: "Nachos", price: "5.20", zutaten: "", zusatzstoffe: "2, 12", inhalt: "Mit Käse & Salsa Dip", alk: "" },

@@ -15,6 +15,8 @@ export const menuData: MainCategory[] = [
                     { label: "Eisschlauch", price: "2.00" },
                 ],
                 items: [
+                    { name: "Jungle Jus", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Pinkman", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Doppel Apfel", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Traube Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Blaubeere Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },

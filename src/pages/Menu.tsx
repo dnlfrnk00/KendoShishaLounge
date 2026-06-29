@@ -156,7 +156,7 @@ const Menu: React.FC = () => {
                                                     onClick={(e) => e.stopPropagation()}
                                                 >
                                                     <div className="tooltip-content-text">
-                                                        <strong>Mix 2 Sorten</strong> in einem Kopf für ein einzigartiges Geschmackserlebnis.
+                                                        <strong>Mix 2 Sorten</strong> in einem Kopf für ein einzigartiges Geschmackserlebnis. <br /><strong>*Darkblend Sorten ausgenommen!</strong>
                                                     </div>
                                                     <div className="tooltip-progress-bar"></div>
                                                 </div>

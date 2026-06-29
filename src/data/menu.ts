@@ -17,6 +17,7 @@ export const menuData: MainCategory[] = [
                 items: [
                     { name: "Jungle Jus", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Pinkman", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Haus Mix", price: "16.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Doppel Apfel", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Traube Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Blaubeere Minze", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
@@ -35,7 +36,7 @@ export const menuData: MainCategory[] = [
                     { name: "Ice Bonbon", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Pistazie Vanille", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Okolum", price: "15.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
-                    { name: "Haus Mix", price: "16.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
+
                 ]
             }
         ]

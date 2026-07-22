@@ -124,7 +124,7 @@ export const menuData: MainCategory[] = [
                     { name: "Aperol Spritz", price: "6.50", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
                     { name: "Weißwein", price: "6.50", zutaten: "", zusatzstoffe: "2, 14, 18", inhalt: "0,25L", alk: "Alkoholisch" },
                     { name: "Süße Weißwein Schorle", price: "6.20", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
-                    { name: "Wildberry Elixir Martini", price: "6.50", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
+                    { name: "Wildberry Elixir", price: "6.50", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
                 ]
             },
             {

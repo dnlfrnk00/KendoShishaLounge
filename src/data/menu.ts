@@ -15,6 +15,7 @@ export const menuData: MainCategory[] = [
                     { label: "Eisschlauch", price: "2.00" },
                 ],
                 items: [
+                    { name: "Baileys Irish Cream", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Jungle Jus", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Pinkman", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Haus Mix", price: "16.50", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },

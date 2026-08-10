@@ -10,7 +10,7 @@ export const menuData: MainCategory[] = [
                 imgSrc: "/Images/ShishasThumbnail.png",
                 subheading: "",
                 extras: [
-                    { label: "Gemischter Topf", price: "17.00", oldPrice: "15.00" },
+                    { label: "Gemischter Topf", price: "17.00", oldPrice: "16.00" },
                     { label: "Topfwechsel", price: "8.50" },
                     { label: "Eisschlauch", price: "2.00" },
                 ],

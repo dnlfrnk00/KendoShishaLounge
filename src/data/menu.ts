@@ -15,6 +15,7 @@ export const menuData: MainCategory[] = [
                     { label: "Eisschlauch", price: "2.00" },
                 ],
                 items: [
+                    { name: "Caribbean Rum", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Baileys Irish Cream", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Jungle Jus", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Pinkman", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
@@ -27,6 +28,7 @@ export const menuData: MainCategory[] = [
                     { name: "Falim Red", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Erdbeere Zuckerwatte", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Kaugummi Zimt", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
+                    { name: "Cola", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Love 66", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "African", price: "16.00", zutaten: "", zusatzstoffe: "Im Wechsel", inhalt: "", alk: "" },
                     { name: "Wassermelone", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },

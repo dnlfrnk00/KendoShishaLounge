@@ -129,7 +129,6 @@ export const menuData: MainCategory[] = [
                     { name: "Aperol Spritz", price: "6.50", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
                     { name: "Weißwein", price: "6.50", zutaten: "", zusatzstoffe: "2, 14, 18", inhalt: "0,25L", alk: "Alkoholisch" },
                     { name: "Süße Weißwein Schorle", price: "6.20", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
-                    { name: "Wildberry Elixir", price: "6.50", zutaten: "", zusatzstoffe: "", inhalt: "0,25L", alk: "Alkoholisch" },
                 ]
             },
             {
@@ -167,11 +166,6 @@ export const menuData: MainCategory[] = [
                 imgSrc: "/Images/HotdrinksThumbnail.png",
                 subheading: "Frischgemachte Heißgetränke",
                 items: [
-                    { name: "Espresso (einfach)", price: "2.50", zutaten: "", zusatzstoffe: "1", inhalt: "", alk: "" },
-                    { name: "Espresso (doppelt)", price: "3.00", zutaten: "", zusatzstoffe: "1", inhalt: "", alk: "" },
-                    { name: "Kaffee Crema", price: "3.90", zutaten: "", zusatzstoffe: "1", inhalt: "", alk: "" },
-                    { name: "Latte Macchiato", price: "4.50", zutaten: "", zusatzstoffe: "1, 12, 17", inhalt: "", alk: "" },
-                    { name: "Cappuccino", price: "4.20", zutaten: "", zusatzstoffe: "1, 12", inhalt: "", alk: "" },
                     { name: "Tee (verschiedene Sorten)", price: "3.90", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                 ]
             }

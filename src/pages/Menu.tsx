@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
     // State now stores Primitives (IDs/Strings) to prevent stale object references
     const [activeMainId, setActiveMainId] = useState<string>(menuData[0].id);
     const [activeSubName, setActiveSubName] = useState<string>(menuData[0].subCategories[0].name);
-    const [showTooltip, setShowTooltip] = useState(false);
+    const [showTooltip, setShowTooltip] = useState<string | null>(null);
     const [isClosing, setIsClosing] = useState(false);
 
     const subTabsRef = useRef<HTMLDivElement>(null);
@@ -46,7 +46,7 @@ const Menu: React.FC = () => {
     const closeTooltip = () => {
         setIsClosing(true);
         setTimeout(() => {
-            setShowTooltip(false);
+            setShowTooltip(null);
             setIsClosing(false);
         }, 400); // Match CSS animation duration
     };
@@ -126,23 +126,28 @@ const Menu: React.FC = () => {
                     {activeSub.extras && (
                         <div className="menu-extras">
                             {activeSub.extras.map((extra, i) => {
-                                const isMixedPot = extra.label === 'Gemischter Topf';
+                                const hasInfo = extra.label === 'Gemischter Topf' || extra.label === 'Topfwechsel';
+                                const isTooltipOpen = showTooltip === extra.label;
                                 return (
                                     <div key={i} className="menu-extra-row">
                                         <div
-                                            className={`extra-label-container ${isMixedPot ? 'clickable' : ''}`}
-                                            onClick={isMixedPot ? (e) => {
+                                            className={`extra-label-container ${hasInfo ? 'clickable' : ''}`}
+                                            onClick={hasInfo ? (e) => {
                                                 e.stopPropagation();
-                                                if (showTooltip) closeTooltip();
-                                                else setShowTooltip(true);
+                                                if (isTooltipOpen && !isClosing) {
+                                                    closeTooltip();
+                                                } else {
+                                                    setIsClosing(false);
+                                                    setShowTooltip(extra.label);
+                                                }
                                             } : undefined}
                                         >
                                             <span className="extra-label">
                                                 {extra.label}
                                             </span>
-                                            {isMixedPot && (
+                                            {hasInfo && (
                                                 <button
-                                                    className={`extra-info-btn ${showTooltip ? 'active' : ''}`}
+                                                    className={`extra-info-btn ${isTooltipOpen ? 'active' : ''}`}
                                                     aria-label="Info"
                                                 >
                                                     i
@@ -150,13 +155,17 @@ const Menu: React.FC = () => {
                                             )}
 
                                             {/* Tooltip anchored to the label */}
-                                            {isMixedPot && showTooltip && (
+                                            {hasInfo && isTooltipOpen && (
                                                 <div
                                                     className={`tooltip-bubble ${isClosing ? 'closing' : ''}`}
                                                     onClick={(e) => e.stopPropagation()}
                                                 >
                                                     <div className="tooltip-content-text">
-                                                        <strong>Mix 2 Sorten</strong> in einem Kopf für ein einzigartiges Geschmackserlebnis. <br /><strong>*Darkblend Sorten ausgenommen!</strong>
+                                                        {extra.label === 'Gemischter Topf' ? (
+                                                            <><strong>Mix 2 Sorten</strong> in einem Kopf für ein einzigartiges Geschmackserlebnis. <br /><strong>*Darkblend Sorten ausgenommen!</strong></>
+                                                        ) : (
+                                                            <>Der Preis für Topfwechsel bei Darkblend Sorten beträgt 9,50</>
+                                                        )}
                                                     </div>
                                                     <div className="tooltip-progress-bar"></div>
                                                 </div>

@@ -15,7 +15,13 @@ export const menuData: MainCategory[] = [
                     { label: "Eisschlauch", price: "2.00" },
                 ],
                 items: [
+                    { name: "Safraneis", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Walnuss Ingwer", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Grüntee", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Cinnamon Roll (Zimtschnecke)", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Müsli", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Kokos Sahne", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
+                    { name: "Schoko Marshmallow", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Caribbean Rum", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Baileys Irish Cream", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },
                     { name: "Jungle Jus", price: "18.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "Darkblend - extra stark" },

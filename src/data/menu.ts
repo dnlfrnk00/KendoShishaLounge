@@ -35,7 +35,6 @@ export const menuData: MainCategory[] = [
                     { name: "Falim Red", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Erdbeere Zuckerwatte", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Kaugummi Zimt", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
-                    { name: "Cola", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "Love 66", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
                     { name: "African", price: "16.00", zutaten: "", zusatzstoffe: "Im Wechsel", inhalt: "", alk: "" },
                     { name: "Wassermelone", price: "16.00", zutaten: "", zusatzstoffe: "", inhalt: "", alk: "" },
@@ -148,7 +147,6 @@ export const menuData: MainCategory[] = [
                     { name: "Tequila", price: "3.00", zutaten: "", zusatzstoffe: "", inhalt: "2cl", alk: "Alkoholisch" },
                     { name: "Ficken", price: "3.00", zutaten: "", zusatzstoffe: "", inhalt: "2cl", alk: "Alkoholisch" },
                     { name: "Bombay Gin", price: "3.00", zutaten: "", zusatzstoffe: "", inhalt: "2cl", alk: "Alkoholisch" },
-                    { name: "Süßer Hausmix", price: "3.00", zutaten: "", zusatzstoffe: "Melonen Brandy, Vodka", inhalt: "2cl", alk: "Alkoholisch" },
                     { name: "Raki", price: "3.00", zutaten: "", zusatzstoffe: "", inhalt: "2cl", alk: "Alkoholisch" },
                 ]
             },
@@ -157,13 +155,10 @@ export const menuData: MainCategory[] = [
                 imgSrc: "/Images/FlaschenThumbnail.png",
                 subheading: "",
                 items: [
-                    { name: "Unser Flaschenpaket", price: "100.00", zutaten: "", zusatzstoffe: "1 Belvedere, 1 Shisha und 1 Nachos", inhalt: "", alk: "" },
                     { name: "Smirnoff", price: "39.00", zutaten: "", zusatzstoffe: "", inhalt: "1,00L", alk: "Alkoholisch" },
                     { name: "Absolut Vodka", price: "49.00", zutaten: "", zusatzstoffe: "", inhalt: "0,75L", alk: "Alkoholisch" },
                     { name: "Belvedere", price: "99.00", zutaten: "", zusatzstoffe: "", inhalt: "0,75L", alk: "Alkoholisch" },
                     { name: "Jack Daniels", price: "79.00", zutaten: "", zusatzstoffe: "", inhalt: "0,75L", alk: "Alkoholisch" },
-                    { name: "Chivas", price: "79.00", zutaten: "", zusatzstoffe: "", inhalt: "0,7L", alk: "Alkoholisch" },
-                    { name: "Hennessy", price: "89.00", zutaten: "", zusatzstoffe: "", inhalt: "0,7L", alk: "Alkoholisch" },
                     { name: "Moët", price: "99.00", zutaten: "", zusatzstoffe: "", inhalt: "0,75L", alk: "Alkoholisch" },
                 ]
             },
